@@ -5,12 +5,12 @@
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
-        <SubtypeId>SurvivalKitLarge2x</SubtypeId>
+        <SubtypeId>SurvivalKitLarge10x</SubtypeId>
       </Id>
       <DisplayName>Enhanced Survival Kit</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Description>Description_SurvivalKit</Description>
-      <Icon>Textures\SurvivalKitLarge2x.dds</Icon>
+      <Icon>Textures\SurvivalKitLarge10x.dds</Icon>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>5</ResearchCost>
@@ -19,7 +19,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
       <Components>
-        <Component Subtype="Tech2x" Count="5"/>
+        <Component Subtype="Tech10x" Count="5"/>
         <Component Subtype="SteelPlate" Count="30"/>
         <Component Subtype="Construction" Count="3"/>
         <Component Subtype="Medical" Count="5"/>
@@ -41,7 +41,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit2x</BlockPairName>
+      <BlockPairName>SurvivalKit10x</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -79,19 +79,19 @@
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
-        <SubtypeId>SurvivalKit2x</SubtypeId>
+        <SubtypeId>SurvivalKit10x</SubtypeId>
       </Id>
       <DisplayName>Enhanced Survival Kit</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Description>Description_SurvivalKit</Description>
-      <Icon>Textures\SurvivalKitSmall2x.dds</Icon>
+      <Icon>Textures\SurvivalKitSmall10x.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
       <Components>
-        <Component Subtype="Tech2x" Count="5"/>
+        <Component Subtype="Tech10x" Count="5"/>
         <Component Subtype="SteelPlate" Count="2"/>
         <Component Subtype="Construction" Count="3"/>
         <Component Subtype="Medical" Count="5"/>
@@ -117,7 +117,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit2x</BlockPairName>
+      <BlockPairName>SurvivalKit10x</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -158,12 +158,12 @@
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
-        <SubtypeId>SurvivalKitLarge4x</SubtypeId>
+        <SubtypeId>SurvivalKitLarge100x</SubtypeId>
       </Id>
       <DisplayName>Proficient Survival Kit</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Description>Description_SurvivalKit</Description>
-      <Icon>Textures\SurvivalKitLarge4x.dds</Icon>
+      <Icon>Textures\SurvivalKitLarge100x.dds</Icon>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>5</ResearchCost>
@@ -172,7 +172,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
       <Components>
-        <Component Subtype="Tech4x" Count="5"/>
+        <Component Subtype="Tech100x" Count="5"/>
         <Component Subtype="SteelPlate" Count="45"/>
         <Component Subtype="Construction" Count="5"/>
         <Component Subtype="Medical" Count="7"/>
@@ -194,7 +194,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit4x</BlockPairName>
+      <BlockPairName>SurvivalKit100x</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -232,19 +232,19 @@
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
-        <SubtypeId>SurvivalKit4x</SubtypeId>
+        <SubtypeId>SurvivalKit100x</SubtypeId>
       </Id>
       <DisplayName>Proficient Survival Kit</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Description>Description_SurvivalKit</Description>
-      <Icon>Textures\SurvivalKitSmall4x.dds</Icon>
+      <Icon>Textures\SurvivalKitSmall100x.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
       <Components>
-        <Component Subtype="Tech4x" Count="5"/>
+        <Component Subtype="Tech100x" Count="5"/>
         <Component Subtype="SteelPlate" Count="3"/>
         <Component Subtype="Construction" Count="5"/>
         <Component Subtype="Medical" Count="7"/>
@@ -270,7 +270,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit4x</BlockPairName>
+      <BlockPairName>SurvivalKit100x</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -310,12 +310,12 @@
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
-        <SubtypeId>SurvivalKitLarge8x</SubtypeId>
+        <SubtypeId>SurvivalKitLarge1000x</SubtypeId>
       </Id>
       <DisplayName>Elite Survival Kit</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Description>Description_SurvivalKit</Description>
-      <Icon>Textures\SurvivalKitLarge8x.dds</Icon>
+      <Icon>Textures\SurvivalKitLarge1000x.dds</Icon>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>5</ResearchCost>
@@ -324,7 +324,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
       <Components>
-        <Component Subtype="Tech8x" Count="5"/>
+        <Component Subtype="Tech1000x" Count="5"/>
         <Component Subtype="SteelPlate" Count="68"/>
         <Component Subtype="Construction" Count="7"/>
         <Component Subtype="Medical" Count="11"/>
@@ -346,7 +346,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit8x</BlockPairName>
+      <BlockPairName>SurvivalKit1000x</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>102</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -384,19 +384,19 @@
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
-        <SubtypeId>SurvivalKit8x</SubtypeId>
+        <SubtypeId>SurvivalKit1000x</SubtypeId>
       </Id>
       <DisplayName>Elite Survival Kit</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Description>Description_SurvivalKit</Description>
-      <Icon>Textures\SurvivalKitSmall8x.dds</Icon>
+      <Icon>Textures\SurvivalKitSmall1000x.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
       <Components>
-        <Component Subtype="Tech8x" Count="5"/>
+        <Component Subtype="Tech1000x" Count="5"/>
         <Component Subtype="SteelPlate" Count="4"/>
         <Component Subtype="Construction" Count="7"/>
         <Component Subtype="Medical" Count="11"/>
@@ -422,7 +422,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit8x</BlockPairName>
+      <BlockPairName>SurvivalKit1000x</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>

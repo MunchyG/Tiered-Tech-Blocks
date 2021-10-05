@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
-                <SubtypeId>OxygenGeneratorLarge2x</SubtypeId>
+                <SubtypeId>OxygenGeneratorLarge10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced O2/H2 Generator</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenGenerator2x.dds</Icon>
+            <Icon>Textures\OxygenGenerator10x.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -18,7 +18,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="20"/>
+                <Component Subtype="Tech10x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="165"/>
                 <Component Subtype="Construction" Count="8"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -41,7 +41,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenGenerator2x</BlockPairName>
+            <BlockPairName>OxygenGenerator10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>45</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -93,11 +93,11 @@
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
-                <SubtypeId>OxygenGeneratorSmall2x</SubtypeId>
+                <SubtypeId>OxygenGeneratorSmall10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced O2/H2 Generator</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenGeneratorSmall2x.dds</Icon>
+            <Icon>Textures\OxygenGeneratorSmall10x.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -106,7 +106,7 @@
             <Model>Models\Cubes\Small\OxygenGenerator.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="17"/>
                 <Component Subtype="Construction" Count="23"/>
                 <Component Subtype="LargeTube" Count="6"/>
@@ -171,7 +171,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator2x</BlockPairName>
+            <BlockPairName>OxygenGenerator10x</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -191,11 +191,11 @@
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
-                <SubtypeId>OxygenGeneratorLarge4x</SubtypeId>
+                <SubtypeId>OxygenGeneratorLarge100x</SubtypeId>
             </Id>
             <DisplayName>Proficient O2/H2 Generator</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenGenerator4x.dds</Icon>
+            <Icon>Textures\OxygenGenerator100x.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -203,7 +203,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="20"/>
+                <Component Subtype="Tech100x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="248"/>
                 <Component Subtype="Construction" Count="12"/>
                 <Component Subtype="LargeTube" Count="5"/>
@@ -226,7 +226,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenGenerator4x</BlockPairName>
+            <BlockPairName>OxygenGenerator100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -278,11 +278,11 @@
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
-                <SubtypeId>OxygenGeneratorSmall4x</SubtypeId>
+                <SubtypeId>OxygenGeneratorSmall100x</SubtypeId>
             </Id>
             <DisplayName>Proficient O2/H2 Generator</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenGeneratorSmall4x.dds</Icon>
+            <Icon>Textures\OxygenGeneratorSmall100x.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -291,7 +291,7 @@
             <Model>Models\Cubes\Small\OxygenGenerator.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="25"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="LargeTube" Count="9"/>
@@ -356,7 +356,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator4x</BlockPairName>
+            <BlockPairName>OxygenGenerator100x</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -375,11 +375,11 @@
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
-                <SubtypeId>OxygenGeneratorLarge8x</SubtypeId>
+                <SubtypeId>OxygenGeneratorLarge1000x</SubtypeId>
             </Id>
             <DisplayName>Elite O2/H2 Generator</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenGenerator8x.dds</Icon>
+            <Icon>Textures\OxygenGenerator1000x.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -387,7 +387,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="20"/>
+                <Component Subtype="Tech1000x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="372"/>
                 <Component Subtype="Construction" Count="17"/>
                 <Component Subtype="LargeTube" Count="7"/>
@@ -410,7 +410,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenGenerator8x</BlockPairName>
+            <BlockPairName>OxygenGenerator1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>102</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -463,11 +463,11 @@
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
-                <SubtypeId>OxygenGeneratorSmall8x</SubtypeId>
+                <SubtypeId>OxygenGeneratorSmall1000x</SubtypeId>
             </Id>
             <DisplayName>Elite O2/H2 Generator</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenGeneratorSmall8x.dds</Icon>
+            <Icon>Textures\OxygenGeneratorSmall1000x.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -476,7 +476,7 @@
             <Model>Models\Cubes\Small\OxygenGenerator.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="38"/>
                 <Component Subtype="Construction" Count="51"/>
                 <Component Subtype="LargeTube" Count="14"/>
@@ -541,7 +541,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator8x</BlockPairName>
+            <BlockPairName>OxygenGenerator1000x</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>

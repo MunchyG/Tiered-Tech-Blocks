@@ -5,11 +5,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeContainer10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_large2x.dds</Icon>
+            <Icon>Textures\container_large10x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -17,7 +17,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="45"/>
+                <Component Subtype="Tech10x" Count="45"/>
                 <Component Subtype="InteriorPlate" Count="450"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="MetalGrid" Count="36"/>
@@ -42,7 +42,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer2x</BlockPairName>
+            <BlockPairName>LargeCargoContainer10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -62,11 +62,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeContainer10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_large2x.dds</Icon>
+            <Icon>Textures\container_large10x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -74,7 +74,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="11"/>
+                <Component Subtype="Tech10x" Count="11"/>
                 <Component Subtype="InteriorPlate" Count="83"/>
                 <Component Subtype="Construction" Count="38"/>
                 <Component Subtype="Computer" Count="9"/>
@@ -95,7 +95,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer2x</BlockPairName>
+            <BlockPairName>LargeCargoContainer10x</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -116,11 +116,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeContainer100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_large4x.dds</Icon>
+            <Icon>Textures\container_large100x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -128,7 +128,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="45"/>
+                <Component Subtype="Tech100x" Count="45"/>
                 <Component Subtype="InteriorPlate" Count="675"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="MetalGrid" Count="54"/>
@@ -153,7 +153,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer4x</BlockPairName>
+            <BlockPairName>LargeCargoContainer100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -173,11 +173,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeContainer100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_large4x.dds</Icon>
+            <Icon>Textures\container_large100x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -185,7 +185,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="11"/>
+                <Component Subtype="Tech100x" Count="11"/>
                 <Component Subtype="InteriorPlate" Count="124"/>
                 <Component Subtype="Construction" Count="57"/>
                 <Component Subtype="Computer" Count="14"/>
@@ -206,7 +206,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer4x</BlockPairName>
+            <BlockPairName>LargeCargoContainer100x</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -228,11 +228,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeContainer1000x</SubtypeId>
             </Id>
             <DisplayName>Timelord Large Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_large8x.dds</Icon>
+            <Icon>Textures\container_large1000x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -240,7 +240,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="45"/>
+                <Component Subtype="Tech1000x" Count="45"/>
                 <Component Subtype="InteriorPlate" Count="1013"/>
                 <Component Subtype="Construction" Count="203"/>
                 <Component Subtype="MetalGrid" Count="81"/>
@@ -265,7 +265,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer8x</BlockPairName>
+            <BlockPairName>LargeCargoContainer1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -285,11 +285,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeContainer1000x</SubtypeId>
             </Id>
             <DisplayName>Timelord Large Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_large8x.dds</Icon>
+            <Icon>Textures\container_large1000x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -297,7 +297,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="11"/>
+                <Component Subtype="Tech1000x" Count="11"/>
                 <Component Subtype="InteriorPlate" Count="186"/>
                 <Component Subtype="Construction" Count="85"/>
                 <Component Subtype="Computer" Count="21"/>
@@ -318,7 +318,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer8x</BlockPairName>
+            <BlockPairName>LargeCargoContainer1000x</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>

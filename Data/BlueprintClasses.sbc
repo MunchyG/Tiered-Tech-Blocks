@@ -4,7 +4,7 @@
         <Class>
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Tech2xComponents</SubtypeId>
+                <SubtypeId>Tech10xComponents</SubtypeId>
             </Id>
             <DisplayName>Enhanced Components</DisplayName>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
@@ -14,7 +14,7 @@
         <Class>
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Tech4xComponents</SubtypeId>
+                <SubtypeId>Tech100xComponents</SubtypeId>
             </Id>
             <DisplayName>Proficient Components</DisplayName>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
@@ -24,7 +24,7 @@
         <Class>
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Tech8xComponents</SubtypeId>
+                <SubtypeId>Tech1000xComponents</SubtypeId>
             </Id>
             <DisplayName>Elite Components</DisplayName>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
@@ -110,9 +110,9 @@
     <BlueprintClassEntries>
         <Entry Class="StoneIncinerator" BlueprintSubtypeId="StoneOreToIngotIncinerate" />
 
-        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech2x" />
-        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech4x" />
-        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech8x" />
+        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech10x" />
+        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech100x" />
+        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech1000x" />
 
         <Entry Class="BasicComponents2" BlueprintSubtypeId="SolarCell" />
         <Entry Class="BasicComponents2" BlueprintSubtypeId="SteelPlate" />

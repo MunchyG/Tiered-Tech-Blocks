@@ -6,12 +6,12 @@
         <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
             <Id>
                 <TypeId>WindTurbine</TypeId>
-                <SubtypeId>LargeBlockWindTurbine2x</SubtypeId>
+                <SubtypeId>LargeBlockWindTurbine10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Wind Turbine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_WindTurbine</Description>
-            <Icon>Textures\WindTurbine2x.dds</Icon>
+            <Icon>Textures\WindTurbine10x.dds</Icon>
             <CubeSize>Large</CubeSize>
             <PlaceDecals>false</PlaceDecals>
             <ResearchGroup>Tier00Basics</ResearchGroup>
@@ -22,7 +22,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="15"/>
+                <Component Subtype="Tech10x" Count="15"/>
                 <Component Subtype="InteriorPlate" Count="15"/>
                 <Component Subtype="Motor" Count="12"/>
                 <Component Subtype="Construction" Count="30"/>
@@ -41,7 +41,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm"/>
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbine2x</BlockPairName>
+            <BlockPairName>WindTurbine10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -80,12 +80,12 @@
         <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
             <Id>
                 <TypeId>WindTurbine</TypeId>
-                <SubtypeId>LargeBlockWindTurbine4x</SubtypeId>
+                <SubtypeId>LargeBlockWindTurbine100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Wind Turbine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_WindTurbine</Description>
-            <Icon>Textures\WindTurbine4x.dds</Icon>
+            <Icon>Textures\WindTurbine100x.dds</Icon>
             <CubeSize>Large</CubeSize>
             <PlaceDecals>false</PlaceDecals>
             <ResearchGroup>Tier00Basics</ResearchGroup>
@@ -96,7 +96,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="15"/>
+                <Component Subtype="Tech100x" Count="15"/>
                 <Component Subtype="InteriorPlate" Count="23"/>
                 <Component Subtype="Motor" Count="18"/>
                 <Component Subtype="Construction" Count="45"/>
@@ -115,7 +115,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm"/>
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbine4x</BlockPairName>
+            <BlockPairName>WindTurbine100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>45</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -155,12 +155,12 @@
         <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
             <Id>
                 <TypeId>WindTurbine</TypeId>
-                <SubtypeId>LargeBlockWindTurbine8x</SubtypeId>
+                <SubtypeId>LargeBlockWindTurbine1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Wind Turbine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_WindTurbine</Description>
-            <Icon>Textures\WindTurbine8x.dds</Icon>
+            <Icon>Textures\WindTurbine1000x.dds</Icon>
             <CubeSize>Large</CubeSize>
             <PlaceDecals>false</PlaceDecals>
             <ResearchGroup>Tier00Basics</ResearchGroup>
@@ -171,7 +171,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="15"/>
+                <Component Subtype="Tech1000x" Count="15"/>
                 <Component Subtype="InteriorPlate" Count="34"/>
                 <Component Subtype="Motor" Count="27"/>
                 <Component Subtype="Construction" Count="68"/>
@@ -190,7 +190,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm"/>
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbine8x</BlockPairName>
+            <BlockPairName>WindTurbine1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>

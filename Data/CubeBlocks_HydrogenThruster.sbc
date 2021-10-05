@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallHydrogenThrust2x</SubtypeId>
+                <SubtypeId>SmallBlockSmallHydrogenThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall2x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterSmall10x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -21,7 +21,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="3"/>
+                <Component Subtype="Tech10x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="15"/>
                 <Component Subtype="MetalGrid" Count="6"/>
@@ -59,7 +59,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>HydrogenThrust2x</BlockPairName>
+            <BlockPairName>HydrogenThrust10x</BlockPairName>
             <Center x="0" y="0" z="0"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -108,11 +108,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeHydrogenThrust2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeHydrogenThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge2x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterLarge10x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -123,7 +123,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="7"/>
+                <Component Subtype="Tech10x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="30"/>
                 <Component Subtype="MetalGrid" Count="33"/>
@@ -163,7 +163,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust2x</BlockPairName>
+            <BlockPairName>LargeHydrogenThrust10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -210,11 +210,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallHydrogenThrust2x</SubtypeId>
+                <SubtypeId>LargeBlockSmallHydrogenThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall2x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterSmall10x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -224,7 +224,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="10"/>
+                <Component Subtype="Tech10x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="MetalGrid" Count="60"/>
@@ -262,7 +262,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>HydrogenThrust2x</BlockPairName>
+            <BlockPairName>HydrogenThrust10x</BlockPairName>
             <Center x="0" y="0" z="0"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -311,11 +311,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeHydrogenThrust2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeHydrogenThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge2x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterLarge10x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -326,7 +326,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="50"/>
+                <Component Subtype="Tech10x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="150"/>
                 <Component Subtype="Construction" Count="225"/>
                 <Component Subtype="MetalGrid" Count="375"/>
@@ -366,7 +366,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust2x</BlockPairName>
+            <BlockPairName>LargeHydrogenThrust10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -416,11 +416,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallHydrogenThrust4x</SubtypeId>
+                <SubtypeId>SmallBlockSmallHydrogenThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall4x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterSmall100x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -431,7 +431,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="3"/>
+                <Component Subtype="Tech100x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="5"/>
                 <Component Subtype="Construction" Count="23"/>
                 <Component Subtype="MetalGrid" Count="9"/>
@@ -469,7 +469,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>HydrogenThrust4x</BlockPairName>
+            <BlockPairName>HydrogenThrust100x</BlockPairName>
             <Center x="0" y="0" z="0"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -518,11 +518,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeHydrogenThrust4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeHydrogenThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge4x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterLarge100x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -533,7 +533,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech100x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="45"/>
                 <Component Subtype="Construction" Count="45"/>
                 <Component Subtype="MetalGrid" Count="50"/>
@@ -573,7 +573,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust4x</BlockPairName>
+            <BlockPairName>LargeHydrogenThrust100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -620,11 +620,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallHydrogenThrust4x</SubtypeId>
+                <SubtypeId>LargeBlockSmallHydrogenThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall4x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterSmall100x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -634,7 +634,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="10"/>
+                <Component Subtype="Tech100x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="MetalGrid" Count="90"/>
@@ -672,7 +672,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>HydrogenThrust4x</BlockPairName>
+            <BlockPairName>HydrogenThrust100x</BlockPairName>
             <Center x="0" y="0" z="0"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -721,11 +721,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeHydrogenThrust4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeHydrogenThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge4x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterLarge100x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -736,7 +736,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="50"/>
+                <Component Subtype="Tech100x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="225"/>
                 <Component Subtype="Construction" Count="338"/>
                 <Component Subtype="MetalGrid" Count="563"/>
@@ -776,7 +776,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust4x</BlockPairName>
+            <BlockPairName>LargeHydrogenThrust100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -826,11 +826,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallHydrogenThrust8x</SubtypeId>
+                <SubtypeId>SmallBlockSmallHydrogenThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall8x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterSmall1000x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -841,7 +841,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech1000x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="7"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="MetalGrid" Count="14"/>
@@ -879,7 +879,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>HydrogenThrust8x</BlockPairName>
+            <BlockPairName>HydrogenThrust1000x</BlockPairName>
             <Center x="0" y="0" z="0"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -928,11 +928,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeHydrogenThrust8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeHydrogenThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge8x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterLarge1000x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -943,7 +943,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech1000x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="68"/>
                 <Component Subtype="Construction" Count="68"/>
                 <Component Subtype="MetalGrid" Count="75"/>
@@ -983,7 +983,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust8x</BlockPairName>
+            <BlockPairName>LargeHydrogenThrust1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1030,11 +1030,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallHydrogenThrust8x</SubtypeId>
+                <SubtypeId>LargeBlockSmallHydrogenThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall8x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterSmall1000x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1044,7 +1044,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="10"/>
+                <Component Subtype="Tech1000x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="51"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="MetalGrid" Count="135"/>
@@ -1082,7 +1082,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>HydrogenThrust8x</BlockPairName>
+            <BlockPairName>HydrogenThrust1000x</BlockPairName>
             <Center x="0" y="0" z="0"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1131,11 +1131,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeHydrogenThrust8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeHydrogenThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge8x.dds</Icon>
+            <Icon>Textures\HydrogenThrusterLarge1000x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1146,7 +1146,7 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="50"/>
+                <Component Subtype="Tech1000x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="338"/>
                 <Component Subtype="Construction" Count="507"/>
                 <Component Subtype="MetalGrid" Count="844"/>
@@ -1186,7 +1186,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust8x</BlockPairName>
+            <BlockPairName>LargeHydrogenThrust1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

@@ -5,19 +5,19 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>LargeHydrogenEngine2x</SubtypeId>
+                <SubtypeId>LargeHydrogenEngine10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Hydrogen Engine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\HydrogenEngineLarge2x.dds</Icon>
+            <Icon>Textures\HydrogenEngineLarge10x.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="25"/>
+                <Component Subtype="Tech10x" Count="25"/>
                 <Component Subtype="SteelPlate" Count="120"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="18"/>
@@ -38,7 +38,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine2x</BlockPairName>
+            <BlockPairName>HydrogenEngine10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -95,19 +95,19 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>SmallHydrogenEngine2x</SubtypeId>
+                <SubtypeId>SmallHydrogenEngine10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Hydrogen Engine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\HydrogenEngineSmall2x.dds</Icon>
+            <Icon>Textures\HydrogenEngineSmall10x.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="6"/>
+                <Component Subtype="Tech10x" Count="6"/>
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="27"/>
                 <Component Subtype="LargeTube" Count="6"/>
@@ -133,7 +133,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm"/>
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine2x</BlockPairName>
+            <BlockPairName>HydrogenEngine10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -175,19 +175,19 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>LargeHydrogenEngine4x</SubtypeId>
+                <SubtypeId>LargeHydrogenEngine100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Hydrogen Engine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\HydrogenEngineLarge4x.dds</Icon>
+            <Icon>Textures\HydrogenEngineLarge100x.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="25"/>
+                <Component Subtype="Tech100x" Count="25"/>
                 <Component Subtype="SteelPlate" Count="180"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="27"/>
@@ -208,7 +208,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine4x</BlockPairName>
+            <BlockPairName>HydrogenEngine100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -265,19 +265,19 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>SmallHydrogenEngine4x</SubtypeId>
+                <SubtypeId>SmallHydrogenEngine100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Hydrogen Engine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\HydrogenEngineSmall4x.dds</Icon>
+            <Icon>Textures\HydrogenEngineSmall100x.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="6"/>
+                <Component Subtype="Tech100x" Count="6"/>
                 <Component Subtype="SteelPlate" Count="45"/>
                 <Component Subtype="Construction" Count="41"/>
                 <Component Subtype="LargeTube" Count="9"/>
@@ -303,7 +303,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm"/>
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine4x</BlockPairName>
+            <BlockPairName>HydrogenEngine100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -345,19 +345,19 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>LargeHydrogenEngine8x</SubtypeId>
+                <SubtypeId>LargeHydrogenEngine1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Hydrogen Engine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\HydrogenEngineLarge8x.dds</Icon>
+            <Icon>Textures\HydrogenEngineLarge1000x.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="25"/>
+                <Component Subtype="Tech1000x" Count="25"/>
                 <Component Subtype="SteelPlate" Count="270"/>
                 <Component Subtype="Construction" Count="203"/>
                 <Component Subtype="LargeTube" Count="41"/>
@@ -378,7 +378,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine8x</BlockPairName>
+            <BlockPairName>HydrogenEngine1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -435,19 +435,19 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>SmallHydrogenEngine8x</SubtypeId>
+                <SubtypeId>SmallHydrogenEngine1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Hydrogen Engine</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\HydrogenEngineSmall8x.dds</Icon>
+            <Icon>Textures\HydrogenEngineSmall1000x.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="6"/>
+                <Component Subtype="Tech1000x" Count="6"/>
                 <Component Subtype="SteelPlate" Count="68"/>
                 <Component Subtype="Construction" Count="61"/>
                 <Component Subtype="LargeTube" Count="14"/>
@@ -473,7 +473,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm"/>
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine8x</BlockPairName>
+            <BlockPairName>HydrogenEngine1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

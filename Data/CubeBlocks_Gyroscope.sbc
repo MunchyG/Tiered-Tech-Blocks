@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_GyroDefinition">
             <Id>
                 <TypeId>Gyro</TypeId>
-                <SubtypeId>SmallBlockGyro2x</SubtypeId>
+                <SubtypeId>SmallBlockGyro10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Gyroscope</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\gyro2x.dds</Icon>
+            <Icon>Textures\gyro10x.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -19,7 +19,7 @@
             <Model>Models\Cubes\Small\gyroscope.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="2"/>
+                <Component Subtype="Tech10x" Count="2"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="8"/>
                 <Component Subtype="LargeTube" Count="2"/>
@@ -35,7 +35,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Gyroscope2x</BlockPairName>
+            <BlockPairName>Gyroscope10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>21</BuildTimeSeconds>
@@ -59,11 +59,11 @@
         <Definition xsi:type="MyObjectBuilder_GyroDefinition">
             <Id>
                 <TypeId>Gyro</TypeId>
-                <SubtypeId>LargeBlockGyro2x</SubtypeId>
+                <SubtypeId>LargeBlockGyro10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Gyroscope</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\gyro2x.dds</Icon>
+            <Icon>Textures\gyro10x.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -71,7 +71,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="750"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="6"/>
@@ -89,7 +89,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Gyroscope2x</BlockPairName>
+            <BlockPairName>Gyroscope10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -114,11 +114,11 @@
         <Definition xsi:type="MyObjectBuilder_GyroDefinition">
             <Id>
                 <TypeId>Gyro</TypeId>
-                <SubtypeId>SmallBlockGyro4x</SubtypeId>
+                <SubtypeId>SmallBlockGyro100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Gyroscope</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\gyro4x.dds</Icon>
+            <Icon>Textures\gyro100x.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -127,7 +127,7 @@
             <Model>Models\Cubes\Small\gyroscope.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="2"/>
+                <Component Subtype="Tech100x" Count="2"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="12"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -143,7 +143,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Gyroscope4x</BlockPairName>
+            <BlockPairName>Gyroscope100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>32</BuildTimeSeconds>
@@ -167,11 +167,11 @@
         <Definition xsi:type="MyObjectBuilder_GyroDefinition">
             <Id>
                 <TypeId>Gyro</TypeId>
-                <SubtypeId>LargeBlockGyro4x</SubtypeId>
+                <SubtypeId>LargeBlockGyro100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Gyroscope</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\gyro4x.dds</Icon>
+            <Icon>Textures\gyro100x.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -179,7 +179,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="1125"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="9"/>
@@ -197,7 +197,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Gyroscope4x</BlockPairName>
+            <BlockPairName>Gyroscope100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -222,11 +222,11 @@
         <Definition xsi:type="MyObjectBuilder_GyroDefinition">
             <Id>
                 <TypeId>Gyro</TypeId>
-                <SubtypeId>SmallBlockGyro8x</SubtypeId>
+                <SubtypeId>SmallBlockGyro1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Gyroscope</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\gyro8x.dds</Icon>
+            <Icon>Textures\gyro1000x.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -235,7 +235,7 @@
             <Model>Models\Cubes\Small\gyroscope.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech1000x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="51"/>
                 <Component Subtype="Construction" Count="17"/>
                 <Component Subtype="LargeTube" Count="4"/>
@@ -251,7 +251,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Gyroscope8x</BlockPairName>
+            <BlockPairName>Gyroscope1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>48</BuildTimeSeconds>
@@ -275,11 +275,11 @@
         <Definition xsi:type="MyObjectBuilder_GyroDefinition">
             <Id>
                 <TypeId>Gyro</TypeId>
-                <SubtypeId>LargeBlockGyro8x</SubtypeId>
+                <SubtypeId>LargeBlockGyro1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Gyroscope</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\gyro8x.dds</Icon>
+            <Icon>Textures\gyro1000x.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -287,7 +287,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="1688"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="14"/>
@@ -305,7 +305,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Gyroscope8x</BlockPairName>
+            <BlockPairName>Gyroscope1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

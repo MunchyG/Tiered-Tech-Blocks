@@ -59,9 +59,9 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
 
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech2x" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech4x" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech8x" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech10x" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech100x" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech1000x" />
         </OffersList>
 
         <OrdersList>
@@ -81,9 +81,9 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
 
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech2x" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech4x" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech8x" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech10x" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech100x" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Tech1000x" />
         </OrdersList>
 
         <CanSellOxygen>true</CanSellOxygen>

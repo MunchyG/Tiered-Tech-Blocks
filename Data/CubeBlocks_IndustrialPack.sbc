@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeIndustrialContainer2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeIndustrialContainer10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large I. Cargo Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\CargoContainer2x.dds</Icon>
+            <Icon>Textures\CargoContainer10x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -19,7 +19,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\CargoContainer.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="45"/>
+                <Component Subtype="Tech10x" Count="45"/>
                 <Component Subtype="InteriorPlate" Count="450"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="MetalGrid" Count="36"/>
@@ -71,7 +71,7 @@
               <Y>7.5</Y>
               <Z>7.5</Z>
             </InventorySize>
-            <BlockPairName>LargeCargoContainerIndustrial2x</BlockPairName>
+            <BlockPairName>LargeCargoContainerIndustrial10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -89,11 +89,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankIndustrial2x</SubtypeId>
+                <SubtypeId>LargeHydrogenTankIndustrial10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced I. Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTankIndustrial2x.dds</Icon>
+            <Icon>Textures\HydrogenTankIndustrial10x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -103,7 +103,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="38"/>
+                <Component Subtype="Tech10x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="240"/>
                 <Component Subtype="LargeTube" Count="120"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -131,7 +131,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankIndustrial2x</BlockPairName>
+            <BlockPairName>HydrogenTankIndustrial10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -172,11 +172,11 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>LargeAssemblerIndustrial2x</SubtypeId>
+                <SubtypeId>LargeAssemblerIndustrial10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Industrial Assembler</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\AdvancedAssemblerIndustrial2x.dds</Icon>
+            <Icon>Textures\AdvancedAssemblerIndustrial10x.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -185,7 +185,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="30"/>
+                <Component Subtype="Tech10x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="180"/>
                 <Component Subtype="Construction" Count="120"/>
                 <Component Subtype="Motor" Count="30"/>
@@ -215,7 +215,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>AssemblerIndustrial2x</BlockPairName>
+            <BlockPairName>AssemblerIndustrial10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>120</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -256,11 +256,11 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>LargeRefineryIndustrial2x</SubtypeId>
+                <SubtypeId>LargeRefineryIndustrial10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Industrial Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\AdvancedRefinery2x.dds</Icon>
+            <Icon>Textures\AdvancedRefinery10x.dds</Icon>
             <Description>Description_Refinery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -268,7 +268,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="30"/>
+                <Component Subtype="Tech10x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="1650"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="30"/>
@@ -310,7 +310,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>RefineryIndustrial2x</BlockPairName>
+            <BlockPairName>RefineryIndustrial10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>135</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -353,11 +353,11 @@
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial2x</SubtypeId>
+        <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial10x</SubtypeId>
       </Id>
       <DisplayName>Enhanced Large I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-      <Icon>Textures\HydrogenThrusterIndustrialLarge2x.dds</Icon>
+      <Icon>Textures\HydrogenThrusterIndustrialLarge10x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -367,7 +367,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-                <Component Subtype="Tech2x" Count="7"/>
+                <Component Subtype="Tech10x" Count="7"/>
         <Component Subtype="SteelPlate" Count="30"/>
         <Component Subtype="Construction" Count="30"/>
         <Component Subtype="MetalGrid" Count="33"/>
@@ -401,7 +401,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial2x</BlockPairName>
+      <BlockPairName>LargeHydrogenThrustIndustrial10x</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -454,11 +454,11 @@
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial2x</SubtypeId>
+        <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial10x</SubtypeId>
       </Id>
       <DisplayName>Enhanced Large I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-      <Icon>Textures\HydrogenThrusterIndustrialSmall2x.dds</Icon>
+      <Icon>Textures\HydrogenThrusterIndustrialSmall10x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -469,7 +469,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-                <Component Subtype="Tech2x" Count="3"/>
+                <Component Subtype="Tech10x" Count="3"/>
         <Component Subtype="SteelPlate" Count="3"/>
         <Component Subtype="Construction" Count="15"/>
         <Component Subtype="MetalGrid" Count="6"/>
@@ -498,7 +498,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial2x</BlockPairName>
+      <BlockPairName>HydrogenThrustIndustrial10x</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -553,11 +553,11 @@
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial2x</SubtypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial10x</SubtypeId>
         </Id>
         <DisplayName>Enhanced Large I. Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
-        <Icon>Textures\HydrogenThrusterIndustrialLarge2x.dds</Icon>
+        <Icon>Textures\HydrogenThrusterIndustrialLarge10x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -567,7 +567,7 @@
         <ThrusterType>Hydrogen</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-          <Component Subtype="Tech2x" Count="50"/>
+          <Component Subtype="Tech10x" Count="50"/>
           <Component Subtype="SteelPlate" Count="150"/>
           <Component Subtype="Construction" Count="225"/>
           <Component Subtype="MetalGrid" Count="375"/>
@@ -602,7 +602,7 @@
             <MinAllowed>0</MinAllowed>
           </DynamicMode>
         </VoxelPlacement>
-        <BlockPairName>LargeHydrogenThrustIndustrial2x</BlockPairName>
+        <BlockPairName>LargeHydrogenThrustIndustrial10x</BlockPairName>
         <MirroringX>Z</MirroringX>
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
@@ -656,11 +656,11 @@
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial2x</SubtypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial10x</SubtypeId>
         </Id>
         <DisplayName>Enhanced I. Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
-        <Icon>Textures\HydrogenThrusterIndustrialSmall2x.dds</Icon>
+        <Icon>Textures\HydrogenThrusterIndustrialSmall10x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
         <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -671,7 +671,7 @@
         <ThrusterType>Hydrogen</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-          <Component Subtype="Tech2x" Count="10"/>
+          <Component Subtype="Tech10x" Count="10"/>
           <Component Subtype="SteelPlate" Count="23"/>
           <Component Subtype="Construction" Count="60"/>
           <Component Subtype="MetalGrid" Count="60"/>
@@ -701,7 +701,7 @@
             <MinAllowed>0</MinAllowed>
           </DynamicMode>
         </VoxelPlacement>
-        <BlockPairName>HydrogenThrustIndustrial2x</BlockPairName>
+        <BlockPairName>HydrogenThrustIndustrial10x</BlockPairName>
         <Center x="0" y="0" z="0" />
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
@@ -758,11 +758,11 @@
    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeIndustrialContainer4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeIndustrialContainer100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large I. Cargo Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\CargoContainer4x.dds</Icon>
+            <Icon>Textures\CargoContainer100x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -771,7 +771,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\CargoContainer.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="45"/>
+                <Component Subtype="Tech100x" Count="45"/>
                 <Component Subtype="InteriorPlate" Count="675"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="MetalGrid" Count="54"/>
@@ -823,7 +823,7 @@
                <Y>7.5</Y>
                <Z>7.5</Z>
              </InventorySize>
-            <BlockPairName>LargeCargoContainerIndustrial4x</BlockPairName>
+            <BlockPairName>LargeCargoContainerIndustrial100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -841,11 +841,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankIndustrial4x</SubtypeId>
+                <SubtypeId>LargeHydrogenTankIndustrial100x</SubtypeId>
             </Id>
             <DisplayName>Proficient I. Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTankIndustrial4x.dds</Icon>
+            <Icon>Textures\HydrogenTankIndustrial100x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -855,7 +855,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="38"/>
+                <Component Subtype="Tech100x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="360"/>
                 <Component Subtype="LargeTube" Count="180"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -883,7 +883,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankIndustrial4x</BlockPairName>
+            <BlockPairName>HydrogenTankIndustrial100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -924,11 +924,11 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>LargeAssemblerIndustrial4x</SubtypeId>
+                <SubtypeId>LargeAssemblerIndustrial100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Industrial Assembler</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\AdvancedAssemblerIndustrial4x.dds</Icon>
+            <Icon>Textures\AdvancedAssemblerIndustrial100x.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -937,7 +937,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="30"/>
+                <Component Subtype="Tech100x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="270"/>
                 <Component Subtype="Construction" Count="180"/>
                 <Component Subtype="Motor" Count="45"/>
@@ -967,7 +967,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>AssemblerIndustrial4x</BlockPairName>
+            <BlockPairName>AssemblerIndustrial100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>180</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1008,11 +1008,11 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>LargeRefineryIndustrial4x</SubtypeId>
+                <SubtypeId>LargeRefineryIndustrial100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Industrial Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\AdvancedRefinery4x.dds</Icon>
+            <Icon>Textures\AdvancedRefinery100x.dds</Icon>
             <Description>Description_Refinery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1020,7 +1020,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="30"/>
+                <Component Subtype="Tech100x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="2475"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="45"/>
@@ -1062,7 +1062,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>RefineryIndustrial4x</BlockPairName>
+            <BlockPairName>RefineryIndustrial100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>203</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1105,11 +1105,11 @@
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial4x</SubtypeId>
+        <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial100x</SubtypeId>
       </Id>
       <DisplayName>Proficient Large I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-      <Icon>Textures\HydrogenThrusterIndustrialLarge4x.dds</Icon>
+      <Icon>Textures\HydrogenThrusterIndustrialLarge100x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1119,7 +1119,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech100x" Count="7"/>
         <Component Subtype="SteelPlate" Count="45"/>
         <Component Subtype="Construction" Count="45"/>
         <Component Subtype="MetalGrid" Count="50"/>
@@ -1153,7 +1153,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial4x</BlockPairName>
+      <BlockPairName>LargeHydrogenThrustIndustrial100x</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1206,11 +1206,11 @@
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial4x</SubtypeId>
+        <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial100x</SubtypeId>
       </Id>
       <DisplayName>Proficient Large I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-      <Icon>Textures\HydrogenThrusterIndustrialSmall4x.dds</Icon>
+      <Icon>Textures\HydrogenThrusterIndustrialSmall100x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -1221,7 +1221,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-                <Component Subtype="Tech4x" Count="3"/>
+                <Component Subtype="Tech100x" Count="3"/>
         <Component Subtype="SteelPlate" Count="5"/>
         <Component Subtype="Construction" Count="23"/>
         <Component Subtype="MetalGrid" Count="9"/>
@@ -1250,7 +1250,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial4x</BlockPairName>
+      <BlockPairName>HydrogenThrustIndustrial100x</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1306,11 +1306,11 @@
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial4x</SubtypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial100x</SubtypeId>
         </Id>
         <DisplayName>Proficient Large I. Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
-        <Icon>Textures\HydrogenThrusterIndustrialLarge4x.dds</Icon>
+        <Icon>Textures\HydrogenThrusterIndustrialLarge100x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -1320,7 +1320,7 @@
         <ThrusterType>Hydrogen</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-          <Component Subtype="Tech4x" Count="50"/>
+          <Component Subtype="Tech100x" Count="50"/>
           <Component Subtype="SteelPlate" Count="225"/>
           <Component Subtype="Construction" Count="338"/>
           <Component Subtype="MetalGrid" Count="563"/>
@@ -1355,7 +1355,7 @@
             <MinAllowed>0</MinAllowed>
           </DynamicMode>
         </VoxelPlacement>
-        <BlockPairName>LargeHydrogenThrustIndustrial4x</BlockPairName>
+        <BlockPairName>LargeHydrogenThrustIndustrial100x</BlockPairName>
         <MirroringX>Z</MirroringX>
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
@@ -1409,11 +1409,11 @@
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial4x</SubtypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial100x</SubtypeId>
         </Id>
         <DisplayName>Proficient I. Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
-        <Icon>Textures\HydrogenThrusterIndustrialSmall4x.dds</Icon>
+        <Icon>Textures\HydrogenThrusterIndustrialSmall100x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
         <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -1424,7 +1424,7 @@
         <ThrusterType>Hydrogen</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-          <Component Subtype="Tech4x" Count="10"/>
+          <Component Subtype="Tech100x" Count="10"/>
           <Component Subtype="SteelPlate" Count="34"/>
           <Component Subtype="Construction" Count="90"/>
           <Component Subtype="MetalGrid" Count="90"/>
@@ -1454,7 +1454,7 @@
             <MinAllowed>0</MinAllowed>
           </DynamicMode>
         </VoxelPlacement>
-        <BlockPairName>HydrogenThrustIndustrial4x</BlockPairName>
+        <BlockPairName>HydrogenThrustIndustrial100x</BlockPairName>
         <Center x="0" y="0" z="0" />
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
@@ -1513,11 +1513,11 @@
 	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeIndustrialContainer8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeIndustrialContainer1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large I. Cargo Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\CargoContainer8x.dds</Icon>
+            <Icon>Textures\CargoContainer1000x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1526,7 +1526,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\CargoContainer.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="45"/>
+                <Component Subtype="Tech1000x" Count="45"/>
                 <Component Subtype="InteriorPlate" Count="1013"/>
                 <Component Subtype="Construction" Count="203"/>
                 <Component Subtype="MetalGrid" Count="81"/>
@@ -1578,7 +1578,7 @@
               <Y>7.5</Y>
               <Z>7.5</Z>
             </InventorySize>
-            <BlockPairName>LargeCargoContainerIndustrial8x</BlockPairName>
+            <BlockPairName>LargeCargoContainerIndustrial1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1596,11 +1596,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankIndustrial8x</SubtypeId>
+                <SubtypeId>LargeHydrogenTankIndustrial1000x</SubtypeId>
             </Id>
             <DisplayName>Elite I. Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTankIndustrial8x.dds</Icon>
+            <Icon>Textures\HydrogenTankIndustrial1000x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -1610,7 +1610,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="38"/>
+                <Component Subtype="Tech1000x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="540"/>
                 <Component Subtype="LargeTube" Count="270"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -1638,7 +1638,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankIndustrial8x</BlockPairName>
+            <BlockPairName>HydrogenTankIndustrial1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1679,11 +1679,11 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>LargeAssemblerIndustrial8x</SubtypeId>
+                <SubtypeId>LargeAssemblerIndustrial1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Industrial Assembler</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\AdvancedAssemblerIndustrial8x.dds</Icon>
+            <Icon>Textures\AdvancedAssemblerIndustrial1000x.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1692,7 +1692,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="30"/>
+                <Component Subtype="Tech1000x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="405"/>
                 <Component Subtype="Construction" Count="270"/>
                 <Component Subtype="Motor" Count="68"/>
@@ -1722,7 +1722,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>AssemblerIndustrial8x</BlockPairName>
+            <BlockPairName>AssemblerIndustrial1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>270</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1763,11 +1763,11 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>LargeRefineryIndustrial8x</SubtypeId>
+                <SubtypeId>LargeRefineryIndustrial1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Industrial Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\AdvancedRefinery8x.dds</Icon>
+            <Icon>Textures\AdvancedRefinery1000x.dds</Icon>
             <Description>Description_Refinery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1775,7 +1775,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="30"/>
+                <Component Subtype="Tech1000x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="3713"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="68"/>
@@ -1817,7 +1817,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>RefineryIndustrial8x</BlockPairName>
+            <BlockPairName>RefineryIndustrial1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>304</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1860,11 +1860,11 @@
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial8x</SubtypeId>
+        <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial1000x</SubtypeId>
       </Id>
       <DisplayName>Elite Large I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-      <Icon>Textures\HydrogenThrusterIndustrialLarge8x.dds</Icon>
+      <Icon>Textures\HydrogenThrusterIndustrialLarge1000x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1874,7 +1874,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech1000x" Count="7"/>
         <Component Subtype="SteelPlate" Count="68"/>
         <Component Subtype="Construction" Count="68"/>
         <Component Subtype="MetalGrid" Count="75"/>
@@ -1908,7 +1908,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial8x</BlockPairName>
+      <BlockPairName>LargeHydrogenThrustIndustrial1000x</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1961,11 +1961,11 @@
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial8x</SubtypeId>
+        <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial1000x</SubtypeId>
       </Id>
       <DisplayName>Elite Large I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-      <Icon>Textures\HydrogenThrusterIndustrialSmall8x.dds</Icon>
+      <Icon>Textures\HydrogenThrusterIndustrialSmall1000x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -1976,7 +1976,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech1000x" Count="3"/>
         <Component Subtype="SteelPlate" Count="7"/>
         <Component Subtype="Construction" Count="34"/>
         <Component Subtype="MetalGrid" Count="14"/>
@@ -2005,7 +2005,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial8x</BlockPairName>
+      <BlockPairName>HydrogenThrustIndustrial1000x</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2060,11 +2060,11 @@
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial8x</SubtypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial1000x</SubtypeId>
         </Id>
         <DisplayName>Elite Large I. Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
-        <Icon>Textures\HydrogenThrusterIndustrialLarge8x.dds</Icon>
+        <Icon>Textures\HydrogenThrusterIndustrialLarge1000x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -2074,7 +2074,7 @@
         <ThrusterType>Hydrogen</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-          <Component Subtype="Tech8x" Count="50"/>
+          <Component Subtype="Tech1000x" Count="50"/>
           <Component Subtype="SteelPlate" Count="338"/>
           <Component Subtype="Construction" Count="507"/>
           <Component Subtype="MetalGrid" Count="844"/>
@@ -2109,7 +2109,7 @@
             <MinAllowed>0</MinAllowed>
           </DynamicMode>
         </VoxelPlacement>
-        <BlockPairName>LargeHydrogenThrustIndustrial8x</BlockPairName>
+        <BlockPairName>LargeHydrogenThrustIndustrial1000x</BlockPairName>
         <MirroringX>Z</MirroringX>
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
@@ -2163,11 +2163,11 @@
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial8x</SubtypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial1000x</SubtypeId>
         </Id>
         <DisplayName>Elite I. Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
-        <Icon>Textures\HydrogenThrusterIndustrialSmall8x.dds</Icon>
+        <Icon>Textures\HydrogenThrusterIndustrialSmall1000x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
         <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -2178,7 +2178,7 @@
         <ThrusterType>Hydrogen</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-          <Component Subtype="Tech8x" Count="10"/>
+          <Component Subtype="Tech1000x" Count="10"/>
           <Component Subtype="SteelPlate" Count="51"/>
           <Component Subtype="Construction" Count="135"/>
           <Component Subtype="MetalGrid" Count="135"/>
@@ -2208,7 +2208,7 @@
             <MinAllowed>0</MinAllowed>
           </DynamicMode>
         </VoxelPlacement>
-        <BlockPairName>HydrogenThrustIndustrial8x</BlockPairName>
+        <BlockPairName>HydrogenThrustIndustrial1000x</BlockPairName>
         <Center x="0" y="0" z="0" />
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>

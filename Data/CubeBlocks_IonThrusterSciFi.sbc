@@ -4,11 +4,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrustSciFi2x</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_IonThrusterSmall_SciFi2x.dds</Icon>
+            <Icon>Textures\Small_IonThrusterSmall_SciFi10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -19,7 +19,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="3"/>
+                <Component Subtype="Tech10x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="LargeTube" Count="2"/>
@@ -51,7 +51,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi2x</BlockPairName>
+            <BlockPairName>SmallThrustSciFi10x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -100,11 +100,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrustSciFi2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_IonThrusterLarge_SciFi2x.dds</Icon>
+            <Icon>Textures\Small_IonThrusterLarge_SciFi10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -114,7 +114,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="7"/>
+                <Component Subtype="Tech10x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="LargeTube" Count="8"/>
@@ -146,7 +146,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi2x</BlockPairName>
+            <BlockPairName>LargeThrustSciFi10x</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -196,11 +196,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrustSciFi2x</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\large_IonThrusterSmall_SciFi2x.dds</Icon>
+            <Icon>Textures\large_IonThrusterSmall_SciFi10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -211,7 +211,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="10"/>
+                <Component Subtype="Tech10x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="12"/>
@@ -244,7 +244,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi2x</BlockPairName>
+            <BlockPairName>SmallThrustSciFi10x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -292,11 +292,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrustSciFi2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\large_IonThrusterLarge_SciFi2x.dds</Icon>
+            <Icon>Textures\large_IonThrusterLarge_SciFi10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -306,7 +306,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="50"/>
+                <Component Subtype="Tech10x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="150"/>
                 <Component Subtype="Construction" Count="105"/>
                 <Component Subtype="LargeTube" Count="60"/>
@@ -341,7 +341,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi2x</BlockPairName>
+            <BlockPairName>LargeThrustSciFi10x</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -392,11 +392,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrustSciFi4x</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_IonThrusterSmall_SciFi4x.dds</Icon>
+            <Icon>Textures\Small_IonThrusterSmall_SciFi100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -407,7 +407,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="3"/>
+                <Component Subtype="Tech100x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -439,7 +439,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi4x</BlockPairName>
+            <BlockPairName>SmallThrustSciFi100x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>23</BuildTimeSeconds>
@@ -488,11 +488,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrustSciFi4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_IonThrusterLarge_SciFi4x.dds</Icon>
+            <Icon>Textures\Small_IonThrusterLarge_SciFi100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -502,7 +502,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech100x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="LargeTube" Count="12"/>
@@ -534,7 +534,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi4x</BlockPairName>
+            <BlockPairName>LargeThrustSciFi100x</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -584,11 +584,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrustSciFi4x</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\large_IonThrusterSmall_SciFi4x.dds</Icon>
+            <Icon>Textures\large_IonThrusterSmall_SciFi100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -599,7 +599,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="10"/>
+                <Component Subtype="Tech100x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="18"/>
@@ -632,7 +632,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi4x</BlockPairName>
+            <BlockPairName>SmallThrustSciFi100x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -680,11 +680,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrustSciFi4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\large_IonThrusterLarge_SciFi4x.dds</Icon>
+            <Icon>Textures\large_IonThrusterLarge_SciFi100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -694,7 +694,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="50"/>
+                <Component Subtype="Tech100x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="225"/>
                 <Component Subtype="Construction" Count="158"/>
                 <Component Subtype="LargeTube" Count="90"/>
@@ -729,7 +729,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi4x</BlockPairName>
+            <BlockPairName>LargeThrustSciFi100x</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -781,11 +781,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrustSciFi8x</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_IonThrusterSmall_SciFi8x.dds</Icon>
+            <Icon>Textures\Small_IonThrusterSmall_SciFi1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -796,7 +796,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech1000x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="LargeTube" Count="4"/>
@@ -828,7 +828,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi8x</BlockPairName>
+            <BlockPairName>SmallThrustSciFi1000x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>34</BuildTimeSeconds>
@@ -877,11 +877,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrustSciFi8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_IonThrusterLarge_SciFi8x.dds</Icon>
+            <Icon>Textures\Small_IonThrusterLarge_SciFi1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -891,7 +891,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech1000x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="LargeTube" Count="17"/>
@@ -923,7 +923,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi8x</BlockPairName>
+            <BlockPairName>LargeThrustSciFi1000x</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -973,11 +973,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrustSciFi8x</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\large_IonThrusterSmall_SciFi8x.dds</Icon>
+            <Icon>Textures\large_IonThrusterSmall_SciFi1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -988,7 +988,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="10"/>
+                <Component Subtype="Tech1000x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="51"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="27"/>
@@ -1021,7 +1021,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi8x</BlockPairName>
+            <BlockPairName>SmallThrustSciFi1000x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1069,11 +1069,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrustSciFi8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\large_IonThrusterLarge_SciFi8x.dds</Icon>
+            <Icon>Textures\large_IonThrusterLarge_SciFi1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1083,7 +1083,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="50"/>
+                <Component Subtype="Tech1000x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="338"/>
                 <Component Subtype="Construction" Count="237"/>
                 <Component Subtype="LargeTube" Count="135"/>
@@ -1118,7 +1118,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi8x</BlockPairName>
+            <BlockPairName>LargeThrustSciFi1000x</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>

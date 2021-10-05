@@ -5,30 +5,30 @@
         <Container>
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock2x</SubtypeId>
+                <SubtypeId>SafeZoneBlock10x</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock2x"/>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock10x"/>
             </DefaultComponents>
         </Container>
 
         <Container>
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock4x</SubtypeId>
+                <SubtypeId>SafeZoneBlock100x</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock4x"/>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock100x"/>
             </DefaultComponents>
         </Container>
 
         <Container>
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock8x</SubtypeId>
+                <SubtypeId>SafeZoneBlock1000x</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock8x"/>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock1000x"/>
             </DefaultComponents>
         </Container>
         
@@ -39,7 +39,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>SafeZoneBlock2x</SubtypeId>
+                <SubtypeId>SafeZoneBlock10x</SubtypeId>
             </Id>
             <Volume>0.005</Volume>
             <InputConstraint IsWhitelist="true">
@@ -52,7 +52,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>SafeZoneBlock4x</SubtypeId>
+                <SubtypeId>SafeZoneBlock100x</SubtypeId>
             </Id>
             <Volume>0.005</Volume>
             <InputConstraint IsWhitelist="true">
@@ -65,7 +65,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>SafeZoneBlock8x</SubtypeId>
+                <SubtypeId>SafeZoneBlock1000x</SubtypeId>
             </Id>
             <Volume>0.005</Volume>
             <InputConstraint IsWhitelist="true">

@@ -5,11 +5,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTank2x</SubtypeId>
+                <SubtypeId>LargeHydrogenTank10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank2x.dds</Icon>
+            <Icon>Textures\HydrogenTank10x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -19,7 +19,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="38"/>
+                <Component Subtype="Tech10x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="240"/>
                 <Component Subtype="LargeTube" Count="120"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -45,7 +45,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTank2x</BlockPairName>
+            <BlockPairName>HydrogenTank10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -78,11 +78,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankSmall2x</SubtypeId>
+                <SubtypeId>LargeHydrogenTankSmall10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Small Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\LargeHydrogenTankSmall2x.dds</Icon>
+            <Icon>Textures\LargeHydrogenTankSmall10x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -92,7 +92,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="LargeTube" Count="60"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -113,7 +113,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankSmall2x</BlockPairName>
+            <BlockPairName>HydrogenTankSmall10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -146,11 +146,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallHydrogenTank2x</SubtypeId>
+                <SubtypeId>SmallHydrogenTank10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank2x.dds</Icon>
+            <Icon>Textures\HydrogenTank10x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -160,7 +160,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="LargeTube" Count="60"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -198,7 +198,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTank2x</BlockPairName>
+            <BlockPairName>HydrogenTank10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -231,11 +231,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallHydrogenTankSmall2x</SubtypeId>
+                <SubtypeId>SmallHydrogenTankSmall10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Small Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\SmallHydrogenTankSmall2x.dds</Icon>
+            <Icon>Textures\SmallHydrogenTankSmall10x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
@@ -245,7 +245,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="4"/>
+                <Component Subtype="Tech10x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="9"/>
                 <Component Subtype="LargeTube" Count="3"/>
                 <Component Subtype="SmallTube" Count="6"/>
@@ -266,7 +266,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankSmall2x</BlockPairName>
+            <BlockPairName>HydrogenTankSmall10x</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -302,11 +302,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTank4x</SubtypeId>
+                <SubtypeId>LargeHydrogenTank100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank4x.dds</Icon>
+            <Icon>Textures\HydrogenTank100x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -316,7 +316,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="38"/>
+                <Component Subtype="Tech100x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="360"/>
                 <Component Subtype="LargeTube" Count="180"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -342,7 +342,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTank4x</BlockPairName>
+            <BlockPairName>HydrogenTank100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -375,11 +375,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankSmall4x</SubtypeId>
+                <SubtypeId>LargeHydrogenTankSmall100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Small Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\LargeHydrogenTankSmall4x.dds</Icon>
+            <Icon>Textures\LargeHydrogenTankSmall100x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -389,7 +389,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -410,7 +410,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankSmall4x</BlockPairName>
+            <BlockPairName>HydrogenTankSmall100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -443,11 +443,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallHydrogenTank4x</SubtypeId>
+                <SubtypeId>SmallHydrogenTank100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank4x.dds</Icon>
+            <Icon>Textures\HydrogenTank100x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -457,7 +457,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -495,7 +495,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTank4x</BlockPairName>
+            <BlockPairName>HydrogenTank100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -528,11 +528,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallHydrogenTankSmall4x</SubtypeId>
+                <SubtypeId>SmallHydrogenTankSmall100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Small Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\SmallHydrogenTankSmall4x.dds</Icon>
+            <Icon>Textures\SmallHydrogenTankSmall100x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
@@ -542,7 +542,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="4"/>
+                <Component Subtype="Tech100x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="14"/>
                 <Component Subtype="LargeTube" Count="5"/>
                 <Component Subtype="SmallTube" Count="9"/>
@@ -563,7 +563,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankSmall4x</BlockPairName>
+            <BlockPairName>HydrogenTankSmall100x</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -599,11 +599,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTank8x</SubtypeId>
+                <SubtypeId>LargeHydrogenTank1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank8x.dds</Icon>
+            <Icon>Textures\HydrogenTank1000x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -613,7 +613,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="38"/>
+                <Component Subtype="Tech1000x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="540"/>
                 <Component Subtype="LargeTube" Count="270"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -639,7 +639,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTank8x</BlockPairName>
+            <BlockPairName>HydrogenTank1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -672,11 +672,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankSmall8x</SubtypeId>
+                <SubtypeId>LargeHydrogenTankSmall1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Small Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\LargeHydrogenTankSmall8x.dds</Icon>
+            <Icon>Textures\LargeHydrogenTankSmall1000x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -686,7 +686,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -707,7 +707,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankSmall8x</BlockPairName>
+            <BlockPairName>HydrogenTankSmall1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -740,11 +740,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallHydrogenTank8x</SubtypeId>
+                <SubtypeId>SmallHydrogenTank1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank8x.dds</Icon>
+            <Icon>Textures\HydrogenTank1000x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -754,7 +754,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -792,7 +792,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTank8x</BlockPairName>
+            <BlockPairName>HydrogenTank1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -825,11 +825,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallHydrogenTankSmall8x</SubtypeId>
+                <SubtypeId>SmallHydrogenTankSmall1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Small Hydrogen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\SmallHydrogenTankSmall8x.dds</Icon>
+            <Icon>Textures\SmallHydrogenTankSmall1000x.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
@@ -839,7 +839,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="4"/>
+                <Component Subtype="Tech1000x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="21"/>
                 <Component Subtype="LargeTube" Count="7"/>
                 <Component Subtype="SmallTube" Count="14"/>
@@ -860,7 +860,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankSmall8x</BlockPairName>
+            <BlockPairName>HydrogenTankSmall1000x</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <EdgeType>Light</EdgeType>

@@ -27,9 +27,9 @@ namespace TieredTechBlocks
 	{
 		public CargoUpgradeHandler() : base(new Dictionary<string, string>()
         {
-/*			{ "LargeBlockSmallContainer", "LargeBlockSmallContainer2x" },
-			{ "LargeBlockSmallContainer2x", "LargeBlockSmallContainer4x" },
-			{ "LargeBlockSmallContainer4x", "LargeBlockSmallContainer8x" }*/
+/*			{ "LargeBlockSmallContainer", "LargeBlockSmallContainer10x" },
+			{ "LargeBlockSmallContainer10x", "LargeBlockSmallContainer100x" },
+			{ "LargeBlockSmallContainer100x", "LargeBlockSmallContainer1000x" }*/
 		}) {}
 
 		protected static bool init = false;

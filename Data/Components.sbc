@@ -4,10 +4,10 @@
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>Tech2x</SubtypeId>
+                <SubtypeId>Tech10x</SubtypeId>
             </Id>
             <DisplayName>Common Tech</DisplayName>
-            <Icon>Textures\tech2x.dds</Icon>
+            <Icon>Textures\tech10x.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.7</Y>
@@ -33,10 +33,10 @@
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>Tech4x</SubtypeId>
+                <SubtypeId>Tech100x</SubtypeId>
             </Id>
             <DisplayName>Rare Tech</DisplayName>
-            <Icon>Textures\tech4x.dds</Icon>
+            <Icon>Textures\tech100x.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.7</Y>
@@ -62,10 +62,10 @@
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>Tech8x</SubtypeId>
+                <SubtypeId>Tech1000x</SubtypeId>
             </Id>
             <DisplayName>Exotic Tech</DisplayName>
-            <Icon>Textures\tech8x.dds</Icon>
+            <Icon>Textures\tech1000x.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.7</Y>

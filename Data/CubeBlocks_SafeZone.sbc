@@ -77,10 +77,10 @@
         <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock2x</SubtypeId>
+                <SubtypeId>SafeZoneBlock10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced SafeZone</DisplayName>
-            <Icon>Textures\SafeZoneBlock2x.dds</Icon>
+            <Icon>Textures\SafeZoneBlock10x.dds</Icon>
             <Description>Description_SafeZone</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -89,7 +89,7 @@
             <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
 
             <Components>
-                <Component Subtype="Tech2x" Count="60"/>
+                <Component Subtype="Tech10x" Count="60"/>
                 <Component Subtype="SteelPlate" Count="1125"/>
                 <Component Subtype="Construction" Count="270"/>
                 <Component Subtype="GravityGenerator" Count="15"/>
@@ -122,7 +122,7 @@
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256"
                             ScreenWidth="5" ScreenHeight="2"/>
             </ScreenAreas>
-            <BlockPairName>SafeZone2x</BlockPairName>
+            <BlockPairName>SafeZone10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>72</BuildTimeSeconds>
@@ -151,10 +151,10 @@
         <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock4x</SubtypeId>
+                <SubtypeId>SafeZoneBlock100x</SubtypeId>
             </Id>
             <DisplayName>Proficient SafeZone</DisplayName>
-            <Icon>Textures\SafeZoneBlock4x.dds</Icon>
+            <Icon>Textures\SafeZoneBlock100x.dds</Icon>
             <Description>Description_SafeZone</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -163,7 +163,7 @@
             <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
 
             <Components>
-                <Component Subtype="Tech4x" Count="60"/>
+                <Component Subtype="Tech100x" Count="60"/>
                 <Component Subtype="SteelPlate" Count="1687"/>
                 <Component Subtype="Construction" Count="405"/>
                 <Component Subtype="GravityGenerator" Count="22"/>
@@ -196,7 +196,7 @@
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256"
                             ScreenWidth="5" ScreenHeight="2"/>
             </ScreenAreas>
-            <BlockPairName>SafeZone4x</BlockPairName>
+            <BlockPairName>SafeZone100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>130</BuildTimeSeconds>
@@ -225,10 +225,10 @@
         <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock8x</SubtypeId>
+                <SubtypeId>SafeZoneBlock1000x</SubtypeId>
             </Id>
             <DisplayName>Elite SafeZone</DisplayName>
-            <Icon>Textures\SafeZoneBlock8x.dds</Icon>
+            <Icon>Textures\SafeZoneBlock1000x.dds</Icon>
             <Description>Description_SafeZone</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -237,7 +237,7 @@
             <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
 
             <Components>
-                <Component Subtype="Tech8x" Count="60"/>
+                <Component Subtype="Tech1000x" Count="60"/>
                 <Component Subtype="SteelPlate" Count="2530"/>
                 <Component Subtype="Construction" Count="607"/>
                 <Component Subtype="GravityGenerator" Count="33"/>
@@ -270,7 +270,7 @@
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256"
                             ScreenWidth="5" ScreenHeight="2"/>
             </ScreenAreas>
-            <BlockPairName>SafeZone8x</BlockPairName>
+            <BlockPairName>SafeZone1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>233</BuildTimeSeconds>

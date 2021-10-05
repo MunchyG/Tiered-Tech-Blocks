@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
+        <!-- LBLATSF10x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi  Large Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Large_AtmosphericThrusterLarge_SciFi2x.dds</Icon>
+            <Icon>Textures\Large_AtmosphericThrusterLarge_SciFi10x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -18,16 +19,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="150"/>
-                <Component Subtype="Construction" Count="60"/>
-                <Component Subtype="LargeTube" Count="75"/>
-                <Component Subtype="MetalGrid" Count="60"/>
-                <Component Subtype="Motor" Count="1650"/>
-                <Component Subtype="Construction" Count="30"/>
-                <Component Subtype="SteelPlate" Count="195"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="LargeTube" Count="500" />
+                <Component Subtype="MetalGrid" Count="500" />
+                <Component Subtype="Motor" Count="500" />
+                <Component Subtype="Tech10x" Count="500"/>
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech10x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
@@ -51,17 +52,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi2x</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFi10x</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>135</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>12960000</ForceMagnitude>
+            <ForceMagnitude>64800000</ForceMagnitude>
             <MaxPowerConsumption>29.4</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -104,15 +105,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- LBSATSF10x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi2x</SubtypeId>
+                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Large_AtmosphericThrusterSmall_SciFi2x.dds</Icon>
+            <Icon>Textures\Large_AtmosphericThrusterSmall_SciFi10x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -123,18 +124,18 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="LargeTube" Count="12"/>
-                <Component Subtype="MetalGrid" Count="15"/>
-                <Component Subtype="Motor" Count="165"/>
-                <Component Subtype="Construction" Count="30"/>
-                <Component Subtype="SteelPlate" Count="30"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="LargeTube" Count="500" />
+                <Component Subtype="MetalGrid" Count="500" />
+                <Component Subtype="Motor" Count="500" />
+                <Component Subtype="Tech10x" Count="50"/>
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech10x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -156,7 +157,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi2x</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFi10x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -164,10 +165,10 @@
             <BuildTimeSeconds>60</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1296000</ForceMagnitude>
+            <ForceMagnitude>6480000</ForceMagnitude>
             <MaxPowerConsumption>4.2</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -210,15 +211,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- SBLATSF10x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi  Large Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_AtmosphericThrusterLarge_SciFi2x.dds</Icon>
+            <Icon>Textures\Small_AtmosphericThrusterLarge_SciFi10x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -228,18 +229,18 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="15"/>
-                <Component Subtype="Construction" Count="30"/>
-                <Component Subtype="LargeTube" Count="6"/>
-                <Component Subtype="MetalGrid" Count="12"/>
-                <Component Subtype="Motor" Count="135"/>
-                <Component Subtype="Construction" Count="15"/>
-                <Component Subtype="SteelPlate" Count="15"/>
+                <Component Subtype="SteelPlate" Count="50" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="LargeTube" Count="50" />
+                <Component Subtype="MetalGrid" Count="50" />
+                <Component Subtype="Motor" Count="50" />
+                <Component Subtype="Tech10x" Count="50"/>
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="SteelPlate" Count="50" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech10x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
                 <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
@@ -260,17 +261,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi2x</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFi10x</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1152000</ForceMagnitude>
+            <ForceMagnitude>5760000</ForceMagnitude>
             <MaxPowerConsumption>4.2</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -314,15 +315,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- SBSATSF10x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi2x</SubtypeId>
+                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Sci-Fi Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_AtmosphericThrusterSmall_SciFi2x.dds</Icon>
+            <Icon>Textures\Small_AtmosphericThrusterSmall_SciFi10x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -333,16 +334,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-                <Component Subtype="Construction" Count="30"/>
-                <Component Subtype="LargeTube" Count="2"/>
-                <Component Subtype="MetalGrid" Count="2"/>
-                <Component Subtype="Motor" Count="27"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="SteelPlate" Count="50" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="LargeTube" Count="50" />
+                <Component Subtype="MetalGrid" Count="50" />
+                <Component Subtype="Motor" Count="50" />
+                <Component Subtype="Tech10x" Count="5"/>
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="SteelPlate" Count="50" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech10x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -365,17 +366,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi2x</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFi10x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>15</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>192000</ForceMagnitude>
+            <ForceMagnitude>960000</ForceMagnitude>
             <MaxPowerConsumption>1.050</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -420,18 +421,15 @@
             <IsAirTight>false</IsAirTight>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
-
-
-
+        <!-- LBLATSF100x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi  Large Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Large_AtmosphericThrusterLarge_SciFi4x.dds</Icon>
+            <Icon>Textures\Large_AtmosphericThrusterLarge_SciFi100x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -441,16 +439,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="225"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="LargeTube" Count="113"/>
-                <Component Subtype="MetalGrid" Count="90"/>
-                <Component Subtype="Motor" Count="2475"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="SteelPlate" Count="293"/>
+                <Component Subtype="SteelPlate" Count="5000" />
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="LargeTube" Count="5000" />
+                <Component Subtype="MetalGrid" Count="5000" />
+                <Component Subtype="Motor" Count="5000" />
+                <Component Subtype="Tech100x" Count="5000"/>
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="SteelPlate" Count="5000" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech100x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
@@ -474,17 +472,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi4x</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFi100x</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>203</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>25920000</ForceMagnitude>
+            <ForceMagnitude>648000000</ForceMagnitude>
             <MaxPowerConsumption>51.45</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.2</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -527,15 +525,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- LBSATSF100x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi4x</SubtypeId>
+                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Large_AtmosphericThrusterSmall_SciFi4x.dds</Icon>
+            <Icon>Textures\Large_AtmosphericThrusterSmall_SciFi100x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -546,18 +544,18 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="LargeTube" Count="18"/>
-                <Component Subtype="MetalGrid" Count="23"/>
-                <Component Subtype="Motor" Count="248"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="5000" />
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="LargeTube" Count="5000" />
+                <Component Subtype="MetalGrid" Count="5000" />
+                <Component Subtype="Motor" Count="5000" />
+                <Component Subtype="Tech100x" Count="500"/>
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="SteelPlate" Count="5000" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech100x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -579,7 +577,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi4x</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFi100x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -587,10 +585,10 @@
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>2592000</ForceMagnitude>
+            <ForceMagnitude>64800000</ForceMagnitude>
             <MaxPowerConsumption>7.35</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.2</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -633,15 +631,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- SBLATSF100x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi  Large Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_AtmosphericThrusterLarge_SciFi4x.dds</Icon>
+            <Icon>Textures\Small_AtmosphericThrusterLarge_SciFi100x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -651,18 +649,18 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="LargeTube" Count="9"/>
-                <Component Subtype="MetalGrid" Count="18"/>
-                <Component Subtype="Motor" Count="203"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="SteelPlate" Count="23"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="LargeTube" Count="500" />
+                <Component Subtype="MetalGrid" Count="500" />
+                <Component Subtype="Motor" Count="500" />
+                <Component Subtype="Tech100x" Count="500"/>
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech100x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
                 <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
@@ -683,17 +681,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi4x</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFi100x</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>45</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>2304000</ForceMagnitude>
+            <ForceMagnitude>57600000</ForceMagnitude>
             <MaxPowerConsumption>7.35</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.2</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -737,15 +735,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- SBSATSF100x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi4x</SubtypeId>
+                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Sci-Fi Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_AtmosphericThrusterSmall_SciFi4x.dds</Icon>
+            <Icon>Textures\Small_AtmosphericThrusterSmall_SciFi100x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -756,16 +754,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="5"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="MetalGrid" Count="3"/>
-                <Component Subtype="Motor" Count="41"/>
-                <Component Subtype="Construction" Count="5"/>
-                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="LargeTube" Count="500" />
+                <Component Subtype="MetalGrid" Count="500" />
+                <Component Subtype="Motor" Count="500" />
+                <Component Subtype="Tech100x" Count="50"/>
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech100x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -788,17 +786,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi4x</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFi100x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>23</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>384000</ForceMagnitude>
+            <ForceMagnitude>9600000</ForceMagnitude>
             <MaxPowerConsumption>1.8375</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.2</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -843,19 +841,15 @@
             <IsAirTight>false</IsAirTight>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
-
-
-
-
+        <!-- LBLATSF1000x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi  Large Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Large_AtmosphericThrusterLarge_SciFi8x.dds</Icon>
+            <Icon>Textures\Large_AtmosphericThrusterLarge_SciFi1000x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -865,16 +859,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="338"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="LargeTube" Count="169"/>
-                <Component Subtype="MetalGrid" Count="135"/>
-                <Component Subtype="Motor" Count="3713"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="SteelPlate" Count="439"/>
+                <Component Subtype="SteelPlate" Count="50000" />
+                <Component Subtype="Construction" Count="50000" />
+                <Component Subtype="LargeTube" Count="50000" />
+                <Component Subtype="MetalGrid" Count="50000" />
+                <Component Subtype="Motor" Count="50000" />
+                <Component Subtype="Tech1000x" Count="50000"/>
+                <Component Subtype="Construction" Count="50000" />
+                <Component Subtype="SteelPlate" Count="50000" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech1000x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
@@ -898,17 +892,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi8x</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFi1000x</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>304</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>51840000</ForceMagnitude>
+            <ForceMagnitude>6480000000</ForceMagnitude>
             <MaxPowerConsumption>90.0375</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.1</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -951,15 +945,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- LBSATSF1000x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi8x</SubtypeId>
+                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Large_AtmosphericThrusterSmall_SciFi8x.dds</Icon>
+            <Icon>Textures\Large_AtmosphericThrusterSmall_SciFi1000x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -970,18 +964,18 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="102"/>
-                <Component Subtype="LargeTube" Count="27"/>
-                <Component Subtype="MetalGrid" Count="34"/>
-                <Component Subtype="Motor" Count="372"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="50000" />
+                <Component Subtype="Construction" Count="50000" />
+                <Component Subtype="LargeTube" Count="50000" />
+                <Component Subtype="MetalGrid" Count="50000" />
+                <Component Subtype="Motor" Count="50000" />
+                <Component Subtype="Tech1000x" Count="5000"/>
+                <Component Subtype="Construction" Count="50000" />
+                <Component Subtype="SteelPlate" Count="50000" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech1000x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -1003,7 +997,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi8x</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFi1000x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -1011,10 +1005,10 @@
             <BuildTimeSeconds>135</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>5184000</ForceMagnitude>
+            <ForceMagnitude>648000000</ForceMagnitude>
             <MaxPowerConsumption>12.8625</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.1</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -1057,15 +1051,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- SBLATSF1000x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi  Large Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_AtmosphericThrusterLarge_SciFi8x.dds</Icon>
+            <Icon>Textures\Small_AtmosphericThrusterLarge_SciFi1000x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1075,18 +1069,18 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="LargeTube" Count="14"/>
-                <Component Subtype="MetalGrid" Count="27"/>
-                <Component Subtype="Motor" Count="304"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="SteelPlate" Count="34"/>
+                <Component Subtype="SteelPlate" Count="5000" />
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="LargeTube" Count="5000" />
+                <Component Subtype="MetalGrid" Count="5000" />
+                <Component Subtype="Motor" Count="5000" />
+                <Component Subtype="Tech1000x" Count="5000"/>
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="SteelPlate" Count="5000" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech1000x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
                 <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
@@ -1107,17 +1101,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi8x</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFi1000x</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>4608000</ForceMagnitude>
+            <ForceMagnitude>576000000</ForceMagnitude>
             <MaxPowerConsumption>12.8625</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.1</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -1161,15 +1155,15 @@
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
         </Definition>
-
+        <!-- SBSATSF1000x -->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi8x</SubtypeId>
+                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Sci-Fi Atmospheric Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Small_AtmosphericThrusterSmall_SciFi8x.dds</Icon>
+            <Icon>Textures\Small_AtmosphericThrusterSmall_SciFi1000x.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1180,16 +1174,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="7"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="MetalGrid" Count="4"/>
-                <Component Subtype="Motor" Count="61"/>
-                <Component Subtype="Construction" Count="7"/>
-                <Component Subtype="SteelPlate" Count="4"/>
+                <Component Subtype="SteelPlate" Count="5000" />
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="LargeTube" Count="5000" />
+                <Component Subtype="MetalGrid" Count="5000" />
+                <Component Subtype="Motor" Count="5000" />
+                <Component Subtype="Tech1000x" Count="500"/>
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="SteelPlate" Count="5000" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Tech1000x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -1212,17 +1206,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi8x</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFi1000x</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>34</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>768000</ForceMagnitude>
+            <ForceMagnitude>96000000</ForceMagnitude>
             <MaxPowerConsumption>3.2156</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.1</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>

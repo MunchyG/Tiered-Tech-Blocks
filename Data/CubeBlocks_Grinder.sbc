@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinder2x</SubtypeId>
+                <SubtypeId>SmallShipGrinder10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Grinder</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Grinder2x.dds</Icon>
+            <Icon>Textures\Grinder10x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -21,7 +21,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech2x" Count="45"/>
+                <Component Subtype="Tech10x" Count="45"/>
                 <Component Subtype="SteelPlate" Count="15"/>
                 <Component Subtype="Construction" Count="23"/>
                 <Component Subtype="SmallTube" Count="6"/>
@@ -58,7 +58,7 @@
                 <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
                 <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75"/>
             </MountPoints>
-            <BlockPairName>ShipGrinder2x</BlockPairName>
+            <BlockPairName>ShipGrinder10x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <Public>true</Public>
@@ -77,11 +77,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinder2x</SubtypeId>
+                <SubtypeId>LargeShipGrinder10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Grinder</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Grinder2x.dds</Icon>
+            <Icon>Textures\Grinder10x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -92,7 +92,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech2x" Count="60"/>
+                <Component Subtype="Tech10x" Count="60"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="38"/>
                 <Component Subtype="LargeTube" Count="2"/>
@@ -127,7 +127,7 @@
                 <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
             </MountPoints>
-            <BlockPairName>ShipGrinder2x</BlockPairName>
+            <BlockPairName>ShipGrinder10x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <Public>true</Public>
@@ -147,11 +147,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinder4x</SubtypeId>
+                <SubtypeId>SmallShipGrinder100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Grinder</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Grinder4x.dds</Icon>
+            <Icon>Textures\Grinder100x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -162,7 +162,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech4x" Count="45"/>
+                <Component Subtype="Tech100x" Count="45"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="SmallTube" Count="9"/>
@@ -199,7 +199,7 @@
                 <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
                 <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75"/>
             </MountPoints>
-            <BlockPairName>ShipGrinder4x</BlockPairName>
+            <BlockPairName>ShipGrinder100x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <Public>true</Public>
@@ -218,11 +218,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinder4x</SubtypeId>
+                <SubtypeId>LargeShipGrinder100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Grinder</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Grinder4x.dds</Icon>
+            <Icon>Textures\Grinder100x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -233,7 +233,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech4x" Count="60"/>
+                <Component Subtype="Tech100x" Count="60"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="57"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -268,7 +268,7 @@
                 <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
             </MountPoints>
-            <BlockPairName>ShipGrinder4x</BlockPairName>
+            <BlockPairName>ShipGrinder100x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <Public>true</Public>
@@ -288,11 +288,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinder8x</SubtypeId>
+                <SubtypeId>SmallShipGrinder1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Grinder</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Grinder8x.dds</Icon>
+            <Icon>Textures\Grinder1000x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -303,7 +303,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech8x" Count="45"/>
+                <Component Subtype="Tech1000x" Count="45"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="51"/>
                 <Component Subtype="SmallTube" Count="14"/>
@@ -340,7 +340,7 @@
                 <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
                 <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75"/>
             </MountPoints>
-            <BlockPairName>ShipGrinder8x</BlockPairName>
+            <BlockPairName>ShipGrinder1000x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <Public>true</Public>
@@ -359,11 +359,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinder8x</SubtypeId>
+                <SubtypeId>LargeShipGrinder1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Grinder</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Grinder8x.dds</Icon>
+            <Icon>Textures\Grinder1000x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -374,7 +374,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech8x" Count="60"/>
+                <Component Subtype="Tech1000x" Count="60"/>
                 <Component Subtype="SteelPlate" Count="51"/>
                 <Component Subtype="Construction" Count="85"/>
                 <Component Subtype="LargeTube" Count="4"/>
@@ -409,7 +409,7 @@
                 <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
             </MountPoints>
-            <BlockPairName>ShipGrinder8x</BlockPairName>
+            <BlockPairName>ShipGrinder1000x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <Public>true</Public>

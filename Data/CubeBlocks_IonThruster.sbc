@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrust2x</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust2x.dds</Icon>
+            <Icon>Textures\thrust10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -21,7 +21,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="3"/>
+                <Component Subtype="Tech10x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="LargeTube" Count="2"/>
@@ -55,7 +55,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>SmallThrust2x</BlockPairName>
+            <BlockPairName>SmallThrust10x</BlockPairName>
             <Center x="0" y="0" z="1"/>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -104,11 +104,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrust2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust_large2x.dds</Icon>
+            <Icon>Textures\thrust_large10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -119,7 +119,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="7"/>
+                <Component Subtype="Tech10x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="LargeTube" Count="8"/>
@@ -152,7 +152,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust2x</BlockPairName>
+            <BlockPairName>LargeThrust10x</BlockPairName>
             <Center x="1" y="0" z="2"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -202,11 +202,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrust2x</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust2x.dds</Icon>
+            <Icon>Textures\thrust10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -216,7 +216,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="10"/>
+                <Component Subtype="Tech10x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="12"/>
@@ -251,7 +251,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>SmallThrust2x</BlockPairName>
+            <BlockPairName>SmallThrust10x</BlockPairName>
             <Center x="0" y="0" z="1"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -299,11 +299,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrust2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrust10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust_large2x.dds</Icon>
+            <Icon>Textures\thrust_large10x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -314,7 +314,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="50"/>
+                <Component Subtype="Tech10x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="150"/>
                 <Component Subtype="Construction" Count="105"/>
                 <Component Subtype="LargeTube" Count="60"/>
@@ -350,7 +350,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust2x</BlockPairName>
+            <BlockPairName>LargeThrust10x</BlockPairName>
             <Center x="1" y="0" z="2"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -400,11 +400,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrust4x</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust4x.dds</Icon>
+            <Icon>Textures\thrust100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -415,7 +415,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="3"/>
+                <Component Subtype="Tech100x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -449,7 +449,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>SmallThrust4x</BlockPairName>
+            <BlockPairName>SmallThrust100x</BlockPairName>
             <Center x="0" y="0" z="1"/>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>23</BuildTimeSeconds>
@@ -498,11 +498,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrust4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust_large4x.dds</Icon>
+            <Icon>Textures\thrust_large100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -513,7 +513,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech100x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="LargeTube" Count="12"/>
@@ -546,7 +546,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust4x</BlockPairName>
+            <BlockPairName>LargeThrust100x</BlockPairName>
             <Center x="1" y="0" z="2"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -596,11 +596,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrust4x</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust4x.dds</Icon>
+            <Icon>Textures\thrust100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -610,7 +610,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="10"/>
+                <Component Subtype="Tech100x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="18"/>
@@ -645,7 +645,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>SmallThrust4x</BlockPairName>
+            <BlockPairName>SmallThrust100x</BlockPairName>
             <Center x="0" y="0" z="1"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -693,11 +693,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrust4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrust100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust_large4x.dds</Icon>
+            <Icon>Textures\thrust_large100x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -708,7 +708,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="50"/>
+                <Component Subtype="Tech100x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="225"/>
                 <Component Subtype="Construction" Count="158"/>
                 <Component Subtype="LargeTube" Count="90"/>
@@ -744,7 +744,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust4x</BlockPairName>
+            <BlockPairName>LargeThrust100x</BlockPairName>
             <Center x="1" y="0" z="2"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -794,11 +794,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrust8x</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust8x.dds</Icon>
+            <Icon>Textures\thrust1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -809,7 +809,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech1000x" Count="3"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="LargeTube" Count="4"/>
@@ -843,7 +843,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>SmallThrust8x</BlockPairName>
+            <BlockPairName>SmallThrust1000x</BlockPairName>
             <Center x="0" y="0" z="1"/>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>34</BuildTimeSeconds>
@@ -892,11 +892,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrust8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust_large8x.dds</Icon>
+            <Icon>Textures\thrust_large1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -907,7 +907,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech1000x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="LargeTube" Count="17"/>
@@ -940,7 +940,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust8x</BlockPairName>
+            <BlockPairName>LargeThrust1000x</BlockPairName>
             <Center x="1" y="0" z="2"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -990,11 +990,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrust8x</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust8x.dds</Icon>
+            <Icon>Textures\thrust1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1004,7 +1004,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="10"/>
+                <Component Subtype="Tech1000x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="51"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="27"/>
@@ -1039,7 +1039,7 @@
                 </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>SmallThrust8x</BlockPairName>
+            <BlockPairName>SmallThrust1000x</BlockPairName>
             <Center x="0" y="0" z="1"/>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1087,11 +1087,11 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrust8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrust1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large Ion Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\thrust_large8x.dds</Icon>
+            <Icon>Textures\thrust_large1000x.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1102,7 +1102,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="50"/>
+                <Component Subtype="Tech1000x" Count="50"/>
                 <Component Subtype="SteelPlate" Count="338"/>
                 <Component Subtype="Construction" Count="237"/>
                 <Component Subtype="LargeTube" Count="135"/>
@@ -1138,7 +1138,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust8x</BlockPairName>
+            <BlockPairName>LargeThrust1000x</BlockPairName>
             <Center x="1" y="0" z="2"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>

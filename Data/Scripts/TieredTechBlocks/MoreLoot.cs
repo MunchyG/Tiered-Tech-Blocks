@@ -32,7 +32,7 @@ namespace TieredTechBlocks
 
                 Tech2 = new Item
                 {
-                    builder = new MyObjectBuilder_Component() { SubtypeName = "Tech2x" },
+                    builder = new MyObjectBuilder_Component() { SubtypeName = "Tech10x" },
                     chanceSmall = Config.Instance.SmallGridCommon.Chance,
                     chanceLarge = Config.Instance.LargeGridCommon.Chance,
                     minItemsSmall = Config.Instance.SmallGridCommon.MinAmount,
@@ -42,7 +42,7 @@ namespace TieredTechBlocks
                 };
                 Tech4 = new Item
                 {
-                    builder = new MyObjectBuilder_Component() { SubtypeName = "Tech4x" },
+                    builder = new MyObjectBuilder_Component() { SubtypeName = "Tech100x" },
                     chanceSmall = Config.Instance.SmallGridRare.Chance,
                     chanceLarge = Config.Instance.LargeGridRare.Chance,
                     minItemsSmall = Config.Instance.SmallGridRare.MinAmount,
@@ -52,7 +52,7 @@ namespace TieredTechBlocks
                 };
                 Tech8 = new Item
                 {
-                    builder = new MyObjectBuilder_Component() { SubtypeName = "Tech8x" },
+                    builder = new MyObjectBuilder_Component() { SubtypeName = "Tech1000x" },
                     chanceSmall = Config.Instance.SmallGridExotic.Chance,
                     chanceLarge = Config.Instance.LargeGridExotic.Chance,
                     minItemsSmall = Config.Instance.SmallGridExotic.MinAmount,

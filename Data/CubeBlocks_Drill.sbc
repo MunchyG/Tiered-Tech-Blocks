@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
-                <SubtypeId>SmallBlockDrill2x</SubtypeId>
+                <SubtypeId>SmallBlockDrill10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Drill</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\drill2x.dds</Icon>
+            <Icon>Textures\drill10x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -20,7 +20,7 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="Tech2x" Count="20"/>
+                <Component Subtype="Tech10x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="45"/>
                 <Component Subtype="LargeTube" Count="6"/>
@@ -52,7 +52,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>Drill2x</BlockPairName>
+            <BlockPairName>Drill10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -83,11 +83,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
-                <SubtypeId>LargeBlockDrill2x</SubtypeId>
+                <SubtypeId>LargeBlockDrill10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Drill</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\drill2x.dds</Icon>
+            <Icon>Textures\drill10x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -98,7 +98,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech2x" Count="40"/>
+                <Component Subtype="Tech10x" Count="40"/>
                 <Component Subtype="SteelPlate" Count="270"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="18"/>
@@ -132,7 +132,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>Drill2x</BlockPairName>
+            <BlockPairName>Drill10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -165,11 +165,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
-                <SubtypeId>SmallBlockDrill4x</SubtypeId>
+                <SubtypeId>SmallBlockDrill100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Drill</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\drill4x.dds</Icon>
+            <Icon>Textures\drill100x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -179,7 +179,7 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="Tech4x" Count="20"/>
+                <Component Subtype="Tech100x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="45"/>
                 <Component Subtype="Construction" Count="68"/>
                 <Component Subtype="LargeTube" Count="9"/>
@@ -211,7 +211,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>Drill4x</BlockPairName>
+            <BlockPairName>Drill100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -242,11 +242,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
-                <SubtypeId>LargeBlockDrill4x</SubtypeId>
+                <SubtypeId>LargeBlockDrill100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Drill</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\drill4x.dds</Icon>
+            <Icon>Textures\drill100x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -257,7 +257,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech4x" Count="40"/>
+                <Component Subtype="Tech100x" Count="40"/>
                 <Component Subtype="SteelPlate" Count="405"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="27"/>
@@ -291,7 +291,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>Drill4x</BlockPairName>
+            <BlockPairName>Drill100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -324,11 +324,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
-                <SubtypeId>SmallBlockDrill8x</SubtypeId>
+                <SubtypeId>SmallBlockDrill1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Drill</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\drill8x.dds</Icon>
+            <Icon>Textures\drill1000x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -338,7 +338,7 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="Tech8x" Count="20"/>
+                <Component Subtype="Tech1000x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="68"/>
                 <Component Subtype="Construction" Count="102"/>
                 <Component Subtype="LargeTube" Count="14"/>
@@ -370,7 +370,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>Drill8x</BlockPairName>
+            <BlockPairName>Drill1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -401,11 +401,11 @@
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
-                <SubtypeId>LargeBlockDrill8x</SubtypeId>
+                <SubtypeId>LargeBlockDrill1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Drill</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\drill8x.dds</Icon>
+            <Icon>Textures\drill1000x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -416,7 +416,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech8x" Count="40"/>
+                <Component Subtype="Tech1000x" Count="40"/>
                 <Component Subtype="SteelPlate" Count="608"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="41"/>
@@ -450,7 +450,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>Drill8x</BlockPairName>
+            <BlockPairName>Drill1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

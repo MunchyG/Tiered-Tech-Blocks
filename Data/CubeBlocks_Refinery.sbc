@@ -5,11 +5,11 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>LargeRefinery2x</SubtypeId>
+                <SubtypeId>LargeRefinery10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\refinery2x.dds</Icon>
+            <Icon>Textures\refinery10x.dds</Icon>
             <Description>Description_Refinery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -17,7 +17,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="30"/>
+                <Component Subtype="Tech10x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="1650"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="30"/>
@@ -42,7 +42,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Refinery2x</BlockPairName>
+            <BlockPairName>Refinery10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>135</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -76,11 +76,11 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>LargeRefinery4x</SubtypeId>
+                <SubtypeId>LargeRefinery100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\refinery4x.dds</Icon>
+            <Icon>Textures\refinery100x.dds</Icon>
             <Description>Description_Refinery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -88,7 +88,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="30"/>
+                <Component Subtype="Tech100x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="2475"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="45"/>
@@ -113,7 +113,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Refinery4x</BlockPairName>
+            <BlockPairName>Refinery100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>203</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -147,11 +147,11 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>LargeRefinery8x</SubtypeId>
+                <SubtypeId>LargeRefinery1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\refinery8x.dds</Icon>
+            <Icon>Textures\refinery1000x.dds</Icon>
             <Description>Description_Refinery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -159,7 +159,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="30"/>
+                <Component Subtype="Tech1000x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="3713"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="68"/>
@@ -184,7 +184,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>Refinery8x</BlockPairName>
+            <BlockPairName>Refinery1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>304</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>

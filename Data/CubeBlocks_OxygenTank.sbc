@@ -160,11 +160,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>OxygenTankDefault2x</SubtypeId>
+                <SubtypeId>OxygenTankDefault10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenTank2x.dds</Icon>
+            <Icon>Textures\OxygenTank10x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -172,7 +172,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="LargeTube" Count="60"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -202,7 +202,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenTank2x</BlockPairName>
+            <BlockPairName>OxygenTank10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -239,11 +239,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeOxygenTank2x</SubtypeId>
+                <SubtypeId>LargeOxygenTank10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank2x.dds</Icon>
+            <Icon>Textures\HydrogenTank10x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -252,7 +252,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="38"/>
+                <Component Subtype="Tech10x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="240"/>
                 <Component Subtype="LargeTube" Count="120"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -278,7 +278,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank2x</BlockPairName>
+            <BlockPairName>LargeOxygenTank10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -312,11 +312,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>OxygenTankSmall2x</SubtypeId>
+                <SubtypeId>OxygenTankSmall10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenTankSmall2x.dds</Icon>
+            <Icon>Textures\OxygenTankSmall10x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -324,7 +324,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="4"/>
+                <Component Subtype="Tech10x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="15"/>
                 <Component Subtype="LargeTube" Count="12"/>
                 <Component Subtype="SmallTube" Count="15"/>
@@ -349,7 +349,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenTank2x</BlockPairName>
+            <BlockPairName>OxygenTank10x</BlockPairName>
             <Center x="1" y="1" z="1"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -384,11 +384,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallLargeOxygenTank2x</SubtypeId>
+                <SubtypeId>SmallLargeOxygenTank10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Large Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank2x.dds</Icon>
+            <Icon>Textures\HydrogenTank10x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
@@ -397,7 +397,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="LargeTube" Count="60"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -435,7 +435,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank2x</BlockPairName>
+            <BlockPairName>LargeOxygenTank10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -470,11 +470,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>OxygenTankDefault4x</SubtypeId>
+                <SubtypeId>OxygenTankDefault100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenTank4x.dds</Icon>
+            <Icon>Textures\OxygenTank100x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -482,7 +482,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -512,7 +512,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenTank4x</BlockPairName>
+            <BlockPairName>OxygenTank100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -549,11 +549,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallLargeOxygenTank4x</SubtypeId>
+                <SubtypeId>SmallLargeOxygenTank100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank4x.dds</Icon>
+            <Icon>Textures\HydrogenTank100x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -562,7 +562,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="38"/>
+                <Component Subtype="Tech100x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="360"/>
                 <Component Subtype="LargeTube" Count="180"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -588,7 +588,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank4x</BlockPairName>
+            <BlockPairName>LargeOxygenTank100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -622,11 +622,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>OxygenTankSmall4x</SubtypeId>
+                <SubtypeId>OxygenTankSmall100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Large Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenTankSmall4x.dds</Icon>
+            <Icon>Textures\OxygenTankSmall100x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -634,7 +634,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="4"/>
+                <Component Subtype="Tech100x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="LargeTube" Count="18"/>
                 <Component Subtype="SmallTube" Count="23"/>
@@ -659,7 +659,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenTank4x</BlockPairName>
+            <BlockPairName>OxygenTank100x</BlockPairName>
             <Center x="1" y="1" z="1"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -694,11 +694,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeOxygenTank4x</SubtypeId>
+                <SubtypeId>LargeOxygenTank100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank4x.dds</Icon>
+            <Icon>Textures\HydrogenTank100x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
@@ -707,7 +707,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -745,7 +745,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank4x</BlockPairName>
+            <BlockPairName>LargeOxygenTank100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -780,11 +780,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>OxygenTankDefault8x</SubtypeId>
+                <SubtypeId>OxygenTankDefault1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenTank8x.dds</Icon>
+            <Icon>Textures\OxygenTank1000x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -792,7 +792,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -822,7 +822,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenTank8x</BlockPairName>
+            <BlockPairName>OxygenTank1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -859,11 +859,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeOxygenTank8x</SubtypeId>
+                <SubtypeId>LargeOxygenTank1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank8x.dds</Icon>
+            <Icon>Textures\HydrogenTank1000x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -872,7 +872,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="38"/>
+                <Component Subtype="Tech1000x" Count="38"/>
                 <Component Subtype="SteelPlate" Count="540"/>
                 <Component Subtype="LargeTube" Count="270"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -898,7 +898,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank8x</BlockPairName>
+            <BlockPairName>LargeOxygenTank1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -932,11 +932,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>OxygenTankSmall8x</SubtypeId>
+                <SubtypeId>OxygenTankSmall1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\OxygenTankSmall8x.dds</Icon>
+            <Icon>Textures\OxygenTankSmall1000x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -944,7 +944,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="4"/>
+                <Component Subtype="Tech1000x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="LargeTube" Count="27"/>
                 <Component Subtype="SmallTube" Count="34"/>
@@ -969,7 +969,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>OxygenTank8x</BlockPairName>
+            <BlockPairName>OxygenTank1000x</BlockPairName>
             <Center x="1" y="1" z="1"/>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1004,11 +1004,11 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>SmallLargeOxygenTank8x</SubtypeId>
+                <SubtypeId>SmallLargeOxygenTank1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Large Oxygen Tank</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenTank8x.dds</Icon>
+            <Icon>Textures\HydrogenTank1000x.dds</Icon>
             <Description>Description_OxygenTank</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
@@ -1017,7 +1017,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -1055,7 +1055,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank8x</BlockPairName>
+            <BlockPairName>LargeOxygenTank1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

@@ -63,11 +63,11 @@
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LargeJumpDrive2x</SubtypeId>
+                <SubtypeId>LargeJumpDrive10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Jump Drive</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\JumpDrive2x.dds</Icon>
+            <Icon>Textures\JumpDrive10x.dds</Icon>
             <Description>Description_JumpDrive</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -75,7 +75,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="75"/>
+                <Component Subtype="Tech10x" Count="75"/>
                 <Component Subtype="SteelPlate" Count="60"/>
                 <Component Subtype="MetalGrid" Count="75"/>
                 <Component Subtype="GravityGenerator" Count="30"/>
@@ -100,7 +100,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>JumpDrive2x</BlockPairName>
+            <BlockPairName>JumpDrive10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -123,18 +123,18 @@
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
-                <SubtypeId>SmallJumpDrive2x</SubtypeId>
+                <SubtypeId>SmallJumpDrive10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Jump Drive</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\JumpDrive2x.dds</Icon>
+            <Icon>Textures\JumpDrive10x.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech10x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="MetalGrid" Count="5"/>
                 <Component Subtype="GravityGenerator" Count="2"/>
@@ -154,7 +154,7 @@
                 <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9"/>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9"/>
             </MountPoints>
-            <BlockPairName>JumpDrive2x</BlockPairName>
+            <BlockPairName>JumpDrive10x</BlockPairName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm"/>
@@ -182,11 +182,11 @@
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LargeJumpDrive4x</SubtypeId>
+                <SubtypeId>LargeJumpDrive100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Jump Drive</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\JumpDrive4x.dds</Icon>
+            <Icon>Textures\JumpDrive100x.dds</Icon>
             <Description>Description_JumpDrive</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -194,7 +194,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="75"/>
+                <Component Subtype="Tech100x" Count="75"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="MetalGrid" Count="113"/>
                 <Component Subtype="GravityGenerator" Count="45"/>
@@ -219,7 +219,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>JumpDrive4x</BlockPairName>
+            <BlockPairName>JumpDrive100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -242,18 +242,18 @@
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
-                <SubtypeId>SmallJumpDrive4x</SubtypeId>
+                <SubtypeId>SmallJumpDrive100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Jump Drive</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\JumpDrive4x.dds</Icon>
+            <Icon>Textures\JumpDrive100x.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech100x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="MetalGrid" Count="5"/>
                 <Component Subtype="GravityGenerator" Count="2"/>
@@ -273,7 +273,7 @@
                 <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9"/>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9"/>
             </MountPoints>
-            <BlockPairName>JumpDrive4x</BlockPairName>
+            <BlockPairName>JumpDrive100x</BlockPairName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm"/>
@@ -301,11 +301,11 @@
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LargeJumpDrive8x</SubtypeId>
+                <SubtypeId>LargeJumpDrive1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Jump Drive</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\JumpDrive8x.dds</Icon>
+            <Icon>Textures\JumpDrive1000x.dds</Icon>
             <Description>Description_JumpDrive</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -313,7 +313,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="75"/>
+                <Component Subtype="Tech1000x" Count="75"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="MetalGrid" Count="169"/>
                 <Component Subtype="GravityGenerator" Count="68"/>
@@ -338,7 +338,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>JumpDrive8x</BlockPairName>
+            <BlockPairName>JumpDrive1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -361,18 +361,18 @@
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
-                <SubtypeId>SmallJumpDrive8x</SubtypeId>
+                <SubtypeId>SmallJumpDrive1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Jump Drive</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\JumpDrive8x.dds</Icon>
+            <Icon>Textures\JumpDrive1000x.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2"/>
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech1000x" Count="8"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="MetalGrid" Count="5"/>
                 <Component Subtype="GravityGenerator" Count="2"/>
@@ -392,7 +392,7 @@
                 <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9"/>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9"/>
             </MountPoints>
-            <BlockPairName>JumpDrive8x</BlockPairName>
+            <BlockPairName>JumpDrive1000x</BlockPairName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm"/>

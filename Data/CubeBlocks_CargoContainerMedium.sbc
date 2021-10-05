@@ -5,11 +5,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockMediumContainer2x</SubtypeId>
+                <SubtypeId>SmallBlockMediumContainer10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Medium Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_medium2x.dds</Icon>
+            <Icon>Textures\container_medium10x.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -17,7 +17,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="4"/>
+                <Component Subtype="Tech10x" Count="4"/>
                 <Component Subtype="InteriorPlate" Count="30"/>
                 <Component Subtype="Construction" Count="15"/>
                 <Component Subtype="Computer" Count="6"/>
@@ -38,7 +38,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>MediumCargoContainer2x</BlockPairName>
+            <BlockPairName>MediumCargoContainer10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -61,11 +61,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockMediumContainer4x</SubtypeId>
+                <SubtypeId>SmallBlockMediumContainer100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Medium Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_medium4x.dds</Icon>
+            <Icon>Textures\container_medium100x.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -73,7 +73,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="4"/>
+                <Component Subtype="Tech100x" Count="4"/>
                 <Component Subtype="InteriorPlate" Count="45"/>
                 <Component Subtype="Construction" Count="23"/>
                 <Component Subtype="Computer" Count="9"/>
@@ -94,7 +94,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>MediumCargoContainer4x</BlockPairName>
+            <BlockPairName>MediumCargoContainer100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -117,11 +117,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockMediumContainer8x</SubtypeId>
+                <SubtypeId>SmallBlockMediumContainer1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Medium Quantum Container</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\container_medium8x.dds</Icon>
+            <Icon>Textures\container_medium1000x.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="4"/>
+                <Component Subtype="Tech1000x" Count="4"/>
                 <Component Subtype="InteriorPlate" Count="68"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="Computer" Count="14"/>
@@ -150,7 +150,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>MediumCargoContainer8x</BlockPairName>
+            <BlockPairName>MediumCargoContainer1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

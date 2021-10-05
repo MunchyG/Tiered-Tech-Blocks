@@ -6,11 +6,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockSmallGenerator2x</SubtypeId>
+                <SubtypeId>SmallBlockSmallGenerator10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor2x.dds</Icon>
+            <Icon>Textures\nuclear_reactor10x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -19,7 +19,7 @@
             <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="7"/>
+                <Component Subtype="Tech10x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="Construction" Count="15"/>
                 <Component Subtype="MetalGrid" Count="3"/>
@@ -42,7 +42,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>SmallReactor2x</BlockPairName>
+            <BlockPairName>SmallReactor10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -78,11 +78,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockLargeGenerator2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeGenerator10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor_large2x.dds</Icon>
+            <Icon>Textures\nuclear_reactor_large10x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -91,7 +91,7 @@
             <Model>Models\Cubes\Small\GeneratorLarge.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="22"/>
+                <Component Subtype="Tech10x" Count="22"/>
                 <Component Subtype="SteelPlate" Count="60"/>
                 <Component Subtype="Construction" Count="14"/>
                 <Component Subtype="MetalGrid" Count="14"/>
@@ -118,7 +118,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeReactor2x</BlockPairName>
+            <BlockPairName>LargeReactor10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>45</BuildTimeSeconds>
@@ -153,11 +153,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockSmallGenerator2x</SubtypeId>
+                <SubtypeId>LargeBlockSmallGenerator10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor2x.dds</Icon>
+            <Icon>Textures\nuclear_reactor10x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -165,7 +165,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="22"/>
+                <Component Subtype="Tech10x" Count="22"/>
                 <Component Subtype="SteelPlate" Count="75"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="MetalGrid" Count="6"/>
@@ -189,7 +189,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>SmallReactor2x</BlockPairName>
+            <BlockPairName>SmallReactor10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -225,11 +225,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockLargeGenerator2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeGenerator10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor_large2x.dds</Icon>
+            <Icon>Textures\nuclear_reactor_large10x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -237,7 +237,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="130"/>
+                <Component Subtype="Tech10x" Count="130"/>
                 <Component Subtype="SteelPlate" Count="1200"/>
                 <Component Subtype="Construction" Count="105"/>
                 <Component Subtype="MetalGrid" Count="60"/>
@@ -264,7 +264,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeReactor2x</BlockPairName>
+            <BlockPairName>LargeReactor10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -300,11 +300,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockSmallGenerator4x</SubtypeId>
+                <SubtypeId>SmallBlockSmallGenerator100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor4x.dds</Icon>
+            <Icon>Textures\nuclear_reactor100x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -313,7 +313,7 @@
             <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech100x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="23"/>
                 <Component Subtype="MetalGrid" Count="5"/>
@@ -336,7 +336,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>SmallReactor4x</BlockPairName>
+            <BlockPairName>SmallReactor100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -372,11 +372,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockLargeGenerator4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeGenerator100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor_large4x.dds</Icon>
+            <Icon>Textures\nuclear_reactor_large100x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -385,7 +385,7 @@
             <Model>Models\Cubes\Small\GeneratorLarge.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="22"/>
+                <Component Subtype="Tech100x" Count="22"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="Construction" Count="21"/>
                 <Component Subtype="MetalGrid" Count="21"/>
@@ -412,7 +412,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeReactor4x</BlockPairName>
+            <BlockPairName>LargeReactor100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>68</BuildTimeSeconds>
@@ -447,11 +447,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockSmallGenerator4x</SubtypeId>
+                <SubtypeId>LargeBlockSmallGenerator100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor4x.dds</Icon>
+            <Icon>Textures\nuclear_reactor100x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -459,7 +459,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="22"/>
+                <Component Subtype="Tech100x" Count="22"/>
                 <Component Subtype="SteelPlate" Count="113"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="MetalGrid" Count="9"/>
@@ -483,7 +483,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>SmallReactor4x</BlockPairName>
+            <BlockPairName>SmallReactor100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -519,11 +519,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockLargeGenerator4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeGenerator100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor_large4x.dds</Icon>
+            <Icon>Textures\nuclear_reactor_large100x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -531,7 +531,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="130"/>
+                <Component Subtype="Tech100x" Count="130"/>
                 <Component Subtype="SteelPlate" Count="1800"/>
                 <Component Subtype="Construction" Count="158"/>
                 <Component Subtype="MetalGrid" Count="90"/>
@@ -558,7 +558,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeReactor4x</BlockPairName>
+            <BlockPairName>LargeReactor100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -594,11 +594,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockSmallGenerator8x</SubtypeId>
+                <SubtypeId>SmallBlockSmallGenerator1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor8x.dds</Icon>
+            <Icon>Textures\nuclear_reactor1000x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -607,7 +607,7 @@
             <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech1000x" Count="7"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="MetalGrid" Count="7"/>
@@ -630,7 +630,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>SmallReactor8x</BlockPairName>
+            <BlockPairName>SmallReactor1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -666,11 +666,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockLargeGenerator8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeGenerator1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor_large8x.dds</Icon>
+            <Icon>Textures\nuclear_reactor_large1000x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -679,7 +679,7 @@
             <Model>Models\Cubes\Small\GeneratorLarge.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="22"/>
+                <Component Subtype="Tech1000x" Count="22"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="Construction" Count="31"/>
                 <Component Subtype="MetalGrid" Count="31"/>
@@ -706,7 +706,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeReactor8x</BlockPairName>
+            <BlockPairName>LargeReactor1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>102</BuildTimeSeconds>
@@ -741,11 +741,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockSmallGenerator8x</SubtypeId>
+                <SubtypeId>LargeBlockSmallGenerator1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor8x.dds</Icon>
+            <Icon>Textures\nuclear_reactor1000x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -753,7 +753,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="22"/>
+                <Component Subtype="Tech1000x" Count="22"/>
                 <Component Subtype="SteelPlate" Count="169"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="MetalGrid" Count="14"/>
@@ -777,7 +777,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>SmallReactor8x</BlockPairName>
+            <BlockPairName>SmallReactor1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -813,11 +813,11 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockLargeGenerator8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeGenerator1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\nuclear_reactor_large8x.dds</Icon>
+            <Icon>Textures\nuclear_reactor_large1000x.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -825,7 +825,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="130"/>
+                <Component Subtype="Tech1000x" Count="130"/>
                 <Component Subtype="SteelPlate" Count="2700"/>
                 <Component Subtype="Construction" Count="237"/>
                 <Component Subtype="MetalGrid" Count="135"/>
@@ -852,7 +852,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeReactor8x</BlockPairName>
+            <BlockPairName>LargeReactor1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

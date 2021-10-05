@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
-        <!--        Tier 2-->
+    <!--LBB10x-->
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>LargeBlockBeacon2x</SubtypeId>
+                <SubtypeId>LargeBlockBeacon10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Beacon</DisplayName>
-            <Icon>Textures\beacon2x.dds</Icon>
+            <Icon>Textures\beacon10x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -17,15 +17,15 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\beacon.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="60" />
-                <Component Subtype="Construction" Count="45" />
-                <Component Subtype="LargeTube" Count="30" />
-                <Component Subtype="Computer" Count="15" />
-                <Component Subtype="RadioCommunication" Count="60" />
-                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="LargeTube" Count="500" />
+                <Component Subtype="Computer" Count="500" />
+                <Component Subtype="RadioCommunication" Count="500" />
+                <Component Subtype="Tech10x" Count="500" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <CriticalComponent Subtype="Tech10x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
                 <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -39,7 +39,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Beacon2x</BlockPairName>
+            <BlockPairName>Beacon10x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>72</BuildTimeSeconds>
@@ -49,7 +49,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>100000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>500000</MaxBroadcastRadius>
             <Flare>BeaconLarge</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
@@ -59,13 +59,14 @@
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
+    <!--SBB10x-->
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>SmallBlockBeacon2x</SubtypeId>
+                <SubtypeId>SmallBlockBeacon10x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Beacon</DisplayName>
-            <Icon>Textures\beacon2x.dds</Icon>
+            <Icon>Textures\beacon10x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -74,20 +75,20 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\beacon.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="2" />
-                <Component Subtype="Construction" Count="2" />
-                <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Computer" Count="2" />
-                <Component Subtype="RadioCommunication" Count="6" />
-                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="50" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="LargeTube" Count="50" />
+                <Component Subtype="Computer" Count="50" />
+                <Component Subtype="RadioCommunication" Count="50" />
+                <Component Subtype="Tech10x" Count="50" />
+                <Component Subtype="SteelPlate" Count="50" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
+            <CriticalComponent Subtype="Tech10x" Index="0" />
+            <MountPoints>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BeaconConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Beacon2x</BlockPairName>
+            <BlockPairName>Beacon10x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>27</BuildTimeSeconds>
@@ -96,7 +97,7 @@
 
             <!-- Beacon properties -->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>100000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>500000</MaxBroadcastRadius>
             <Flare>BeaconSmall</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
             <!-- End Beacon Props-->
@@ -108,14 +109,14 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 
-        <!--        Tier 4-->
+    <!--LBB100x-->
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>LargeBlockBeacon4x</SubtypeId>
+                <SubtypeId>LargeBlockBeacon100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Beacon</DisplayName>
-            <Icon>Textures\beacon4x.dds</Icon>
+            <Icon>Textures\beacon100x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -124,15 +125,15 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\beacon.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="90" />
-                <Component Subtype="Construction" Count="67" />
-                <Component Subtype="LargeTube" Count="45" />
-                <Component Subtype="Computer" Count="22" />
-                <Component Subtype="RadioCommunication" Count="90" />
-                <Component Subtype="SteelPlate" Count="90" />
+                <Component Subtype="SteelPlate" Count="5000" />
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="LargeTube" Count="5000" />
+                <Component Subtype="Computer" Count="5000" />
+                <Component Subtype="RadioCommunication" Count="5000" />
+                <Component Subtype="Tech100x" Count="5000" />
+                <Component Subtype="SteelPlate" Count="5000" />
             </Components>
-            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <CriticalComponent Subtype="Tech100x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
                 <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -146,7 +147,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Beacon4x</BlockPairName>
+            <BlockPairName>Beacon100x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>130</BuildTimeSeconds>
@@ -156,7 +157,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>5000000</MaxBroadcastRadius>
             <Flare>BeaconLarge</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
@@ -166,13 +167,14 @@
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
+    <!--SBB100x-->
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>SmallBlockBeacon4x</SubtypeId>
+                <SubtypeId>SmallBlockBeacon100x</SubtypeId>
             </Id>
             <DisplayName>Proficient Beacon</DisplayName>
-            <Icon>Textures\beacon4x.dds</Icon>
+            <Icon>Textures\beacon100x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -181,20 +183,20 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\beacon.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="3" />
-                <Component Subtype="Construction" Count="3" />
-                <Component Subtype="SmallTube" Count="3" />
-                <Component Subtype="Computer" Count="3" />
-                <Component Subtype="RadioCommunication" Count="9" />
-                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="LargeTube" Count="500" />
+                <Component Subtype="Computer" Count="500" />
+                <Component Subtype="RadioCommunication" Count="500" />
+                <Component Subtype="Tech100x" Count="500" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
+            <CriticalComponent Subtype="Tech100x" Index="0" />
+            <MountPoints>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BeaconConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Beacon4x</BlockPairName>
+            <BlockPairName>Beacon100x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>49</BuildTimeSeconds>
@@ -203,7 +205,7 @@
 
             <!-- Beacon properties -->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>5000000</MaxBroadcastRadius>
             <Flare>BeaconSmall</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
             <!-- End Beacon Props-->
@@ -216,14 +218,14 @@
         </Definition>
 
 
-        <!--        Tier 8-->
+    <!--LBB1000x-->
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>LargeBlockBeacon8x</SubtypeId>
+                <SubtypeId>LargeBlockBeacon1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Beacon</DisplayName>
-            <Icon>Textures\beacon8x.dds</Icon>
+            <Icon>Textures\beacon1000x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -232,15 +234,15 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\beacon.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="135" />
-                <Component Subtype="Construction" Count="101" />
-                <Component Subtype="LargeTube" Count="67" />
-                <Component Subtype="Computer" Count="33" />
-                <Component Subtype="RadioCommunication" Count="135" />
-                <Component Subtype="SteelPlate" Count="135" />
+                <Component Subtype="SteelPlate" Count="50000" />
+                <Component Subtype="Construction" Count="50000" />
+                <Component Subtype="LargeTube" Count="50000" />
+                <Component Subtype="Computer" Count="50000" />
+                <Component Subtype="RadioCommunication" Count="50000" />
+                <Component Subtype="Tech1000x" Count="50000" />
+                <Component Subtype="SteelPlate" Count="50000" />
             </Components>
-            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <CriticalComponent Subtype="Tech1000x" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
                 <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -254,17 +256,17 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Beacon8x</BlockPairName>
+            <BlockPairName>Beacon1000x</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>233</BuildTimeSeconds>
+            <BuildTimeSeconds>500</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>400000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>50000000</MaxBroadcastRadius>
             <Flare>BeaconLarge</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
@@ -274,13 +276,14 @@
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
+    <!--SBB1000x-->
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>SmallBlockBeacon8x</SubtypeId>
+                <SubtypeId>SmallBlockBeacon1000x</SubtypeId>
             </Id>
             <DisplayName>Elite Beacon</DisplayName>
-            <Icon>Textures\beacon8x.dds</Icon>
+            <Icon>Textures\beacon1000x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -289,20 +292,20 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\beacon.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="4" />
-                <Component Subtype="Construction" Count="4" />
-                <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Computer" Count="4" />
-                <Component Subtype="RadioCommunication" Count="13" />
-                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="5000" />
+                <Component Subtype="Construction" Count="5000" />
+                <Component Subtype="LargeTube" Count="5000" />
+                <Component Subtype="Computer" Count="5000" />
+                <Component Subtype="RadioCommunication" Count="5000" />
+                <Component Subtype="Tech1000x" Count="5000" />
+                <Component Subtype="SteelPlate" Count="5000" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
+            <CriticalComponent Subtype="Tech1000x" Index="0" />
+            <MountPoints>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BeaconConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Beacon8x</BlockPairName>
+            <BlockPairName>Beacon1000x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>87</BuildTimeSeconds>
@@ -311,7 +314,7 @@
 
             <!-- Beacon properties -->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>400000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>50000000</MaxBroadcastRadius>
             <Flare>BeaconSmall</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
             <!-- End Beacon Props-->
